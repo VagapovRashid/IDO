@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand__c</fullName>
+    <externalId>false</externalId>
+    <label>Brand</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CT_Products</fullName>
+                <default>false</default>
+                <label>CT Products</label>
+            </value>
+            <value>
+                <fullName>Valio</fullName>
+                <default>false</default>
+                <label>Valio</label>
+            </value>
+            <value>
+                <fullName>Actimel</fullName>
+                <default>false</default>
+                <label>Actimel</label>
+            </value>
+            <value>
+                <fullName>Activia</fullName>
+                <default>false</default>
+                <label>Activia</label>
+            </value>
+            <value>
+                <fullName>Bio Max</fullName>
+                <default>false</default>
+                <label>Bio Max</label>
+            </value>
+            <value>
+                <fullName>Fruttis</fullName>
+                <default>false</default>
+                <label>Fruttis</label>
+            </value>
+            <value>
+                <fullName>Danone</fullName>
+                <default>false</default>
+                <label>Danone</label>
+            </value>
+            <value>
+                <fullName>Danissimo</fullName>
+                <default>false</default>
+                <label>Danissimo</label>
+            </value>
+            <value>
+                <fullName>Parmalat</fullName>
+                <default>false</default>
+                <label>Parmalat</label>
+            </value>
+            <value>
+                <fullName>Bio Balance</fullName>
+                <default>false</default>
+                <label>Bio Balance</label>
+            </value>
+            <value>
+                <fullName>Edelweiss</fullName>
+                <default>false</default>
+                <label>Edelweiss</label>
+            </value>
+            <value>
+                <fullName>Ermigurt</fullName>
+                <default>false</default>
+                <label>Ermigurt</label>
+            </value>
+            <value>
+                <fullName>Mr. Ricco</fullName>
+                <default>false</default>
+                <label>Mr. Ricco</label>
+            </value>
+            <value>
+                <fullName>Epica</fullName>
+                <default>false</default>
+                <label>Epica</label>
+            </value>
+            <value>
+                <fullName>Nestle</fullName>
+                <default>false</default>
+                <label>Nestle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+{
+    "orgName": "Demo Company",
+    "edition": "Developer",
+	"features": ["PersonAccounts", "ContactsToMultipleAccounts"],
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled"]
+    }
+}

@@ -1,0 +1,58 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LookupSetting__c",
+                "referenceId": "LookupSetting__cRef1"
+            },
+            "Name": "Audit_category_1",
+            "DNPDLAccountFields__c": "DN_Audit_Category_1__c,PDL_Audit_Category_1__c",
+            "Fields__c": "Image,CTCPG__ProductId__c,Obligatory__c,CTCPG__IsPresent__c,CTCPG__Price__c,Facing__c,Promo__c",
+            "Is_Record_Addition_Allowed__c": true,
+            "IsRecordDeleteAllowed__c": true,
+            "ObjectName__c": "CTCPG__ActivityData__c",
+            "ParentObject__c": "CTCPG__Activity__c",
+            "ParentObjectRecordType__c": "DemoAudit",
+            "ReadOnlyAttribute__c": "true,false,true,false,false,false,false",
+            "RecordType__c": "Audit_category_1",
+            "RequiredAttribute__c": "true,false,false,false,false,false",
+            "TabOrder__c": 1
+        },
+        {
+            "attributes": {
+                "type": "LookupSetting__c",
+                "referenceId": "LookupSetting__cRef2"
+            },
+            "Name": "Audit_category_2",
+            "DNPDLAccountFields__c": "DN_Audit_Category_2__c,PDL_Audit_Category_2__c",
+            "Fields__c": "Image,CTCPG__ProductId__c,Obligatory__c,CTCPG__IsPresent__c,CTCPG__Price__c,Facing__c,Promo__c",
+            "Is_Record_Addition_Allowed__c": true,
+            "IsRecordDeleteAllowed__c": true,
+            "ObjectName__c": "CTCPG__ActivityData__c",
+            "ParentObject__c": "CTCPG__Activity__c",
+            "ParentObjectRecordType__c": "DemoAudit",
+            "ReadOnlyAttribute__c": "true,false,true,false,false,false,false",
+            "RecordType__c": "Audit_category_2",
+            "RequiredAttribute__c": "false,true,false,false,false,false,false",
+            "TabOrder__c": 2
+        },
+        {
+            "attributes": {
+                "type": "LookupSetting__c",
+                "referenceId": "LookupSetting__cRef3"
+            },
+            "Name": "Audit_category_3",
+            "DNPDLAccountFields__c": "DN_Audit_Category_3__c,PDL_Audit_Category_3__c",
+            "Fields__c": "Image,CTCPG__ProductId__c,Obligatory__c,CTCPG__IsPresent__c,CTCPG__Price__c,Facing__c,Promo__c",
+            "Is_Record_Addition_Allowed__c": true,
+            "IsRecordDeleteAllowed__c": true,
+            "ObjectName__c": "CTCPG__ActivityData__c",
+            "ParentObject__c": "CTCPG__Activity__c",
+            "ParentObjectRecordType__c": "DemoAudit",
+            "ReadOnlyAttribute__c": "true,false,true,false,false,false,false",
+            "RecordType__c": "Audit_category_3",
+            "RequiredAttribute__c": "false,true,false,false,false,false,false",
+            "TabOrder__c": 3
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "sobject": "CTCPG__Product__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "CTCPG__Product__c.json"
+        ]
+    },
+	{
+        "sobject": "Matrix__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Matrix__c.json"
+        ]
+    },
+    {
+        "sobject": "MatrixLineItem__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "MatrixLineItem__c.json"
+        ]
+    },
+	{
+        "sobject": "LookupSetting__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "LookupSetting__c.json"
+        ]
+    }
+]

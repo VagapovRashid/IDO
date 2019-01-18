@@ -1,0 +1,31 @@
+{
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "44.0",
+    "packageAliases": {
+        "ct_mobile": "04t0H000001ICDWQA4",
+        "ct_cpg": "04t1n000002KOy9AAG",
+        "ido": "0Ho1U000000PAuYSAW",
+        "ido@1.0.0-1": "04t1U000002wLGFQA2",
+        "ido@1.0.0-2": "04t1U000002wLSiQAM",
+        "ido@1.0.0-3": "04t1U000000okGoQAI"
+    },
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "definitionFile": "def.json",
+            "package": "ido",
+            "versionName": "Winter 2019",
+            "versionNumber": "1.0.0.NEXT",
+            "default": true,
+            "dependencies": [
+                {
+                    "package": "ct_mobile"
+                },
+                {
+                    "package": "ct_cpg"
+                }
+            ]
+        }
+    ]
+}
