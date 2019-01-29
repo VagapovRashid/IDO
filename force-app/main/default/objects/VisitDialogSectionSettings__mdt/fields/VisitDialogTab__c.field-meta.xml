@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VisitDialogTab__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Visit Dialog Tab</label>
+    <referenceTo>VisitDialogTabSettings__mdt</referenceTo>
+    <relationshipLabel>Visit Dialog Section</relationshipLabel>
+    <relationshipName>VisitDialogSectionSettings</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

@@ -4,23 +4,4 @@
     <active>false</active>
     <compactLayoutAssignment>Mobile_activity</compactLayoutAssignment>
     <label>Mobile Audit</label>
-    <picklistValues>
-        <picklist>CTCPG__Status__c</picklist>
-        <values>
-            <fullName>Canceled</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Finished</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>In Progress</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Planned</fullName>
-            <default>true</default>
-        </values>
-    </picklistValues>
 </RecordType>

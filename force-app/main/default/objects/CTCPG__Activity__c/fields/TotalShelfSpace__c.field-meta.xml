@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalShelfSpace__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Shelf Space</label>
+    <summarizedField>CTCPG__ActivityData__c.largeur_du_produit_en_cm_num__c</summarizedField>
+    <summaryForeignKey>CTCPG__ActivityData__c.CTCPG__ActivityId__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -22,13 +22,5 @@
         "files": [
             "MatrixLineItem__c.json"
         ]
-    },
-	{
-        "sobject": "LookupSetting__c",
-        "saveRefs": true,
-        "resolveRefs": false,
-        "files": [
-            "LookupSetting__c.json"
-        ]
     }
 ]

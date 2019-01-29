@@ -8,7 +8,10 @@
         "ido": "0Ho1U000000PAuYSAW",
         "ido@1.0.0-1": "04t1U000002wLGFQA2",
         "ido@1.0.0-2": "04t1U000002wLSiQAM",
-        "ido@1.0.0-3": "04t1U000000okGoQAI"
+        "ido@1.0.0-3": "04t1U000000okGoQAI",
+        "ido@1.0.0-4": "04t1U000004OLKlQAO",
+        "ido@1.0.1-1": "04t1U000004OMP9QAO",
+        "ido@1.0.2-1": "04t1U000004OOTJQA4"
     },
     "packageDirectories": [
         {
@@ -16,7 +19,7 @@
             "definitionFile": "def.json",
             "package": "ido",
             "versionName": "Winter 2019",
-            "versionNumber": "1.0.0.NEXT",
+            "versionNumber": "1.0.2.NEXT",
             "default": true,
             "dependencies": [
                 {

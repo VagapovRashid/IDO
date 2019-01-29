@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CountActivityData__c</fullName>
+    <externalId>false</externalId>
+    <label>Count Activity Data</label>
+    <summaryFilterItems>
+        <field>CTCPG__ActivityData__c.Obligatory__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>CTCPG__ActivityData__c.CTCPG__ActivityId__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>
