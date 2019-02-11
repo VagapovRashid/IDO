@@ -32,8 +32,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef4"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef3",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef4",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -41,8 +41,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef5"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef4",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef5",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -50,8 +50,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef6"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef5",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef6",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -59,8 +59,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef7"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef6",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef7",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -68,7 +68,7 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef8"
             },
-            "Obligatory__c": false,
+            "Obligatory__c": true,
             "PharmaProductId__c": "@CTCPG__Product__cRef8",
             "MatrixId__c": "@Matrix__cRef1"
         },
@@ -77,7 +77,7 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef9"
             },
-            "Obligatory__c": false,
+            "Obligatory__c": true,
             "PharmaProductId__c": "@CTCPG__Product__cRef9",
             "MatrixId__c": "@Matrix__cRef1"
         },
@@ -95,7 +95,7 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef11"
             },
-            "Obligatory__c": false,
+            "Obligatory__c": true,
             "PharmaProductId__c": "@CTCPG__Product__cRef11",
             "MatrixId__c": "@Matrix__cRef1"
         },
@@ -104,7 +104,7 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef12"
             },
-            "Obligatory__c": false,
+            "Obligatory__c": true,
             "PharmaProductId__c": "@CTCPG__Product__cRef12",
             "MatrixId__c": "@Matrix__cRef1"
         },
@@ -113,7 +113,7 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef13"
             },
-            "Obligatory__c": false,
+            "Obligatory__c": true,
             "PharmaProductId__c": "@CTCPG__Product__cRef13",
             "MatrixId__c": "@Matrix__cRef1"
         },
@@ -122,8 +122,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef14"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef15",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef14",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -131,8 +131,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef15"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef16",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef15",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -140,8 +140,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef16"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef17",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef16",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -149,8 +149,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef17"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef19",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef17",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -159,7 +159,7 @@
                 "referenceId": "MatrixLineItem__cRef18"
             },
             "Obligatory__c": true,
-            "PharmaProductId__c": "@CTCPG__Product__cRef20",
+            "PharmaProductId__c": "@CTCPG__Product__cRef18",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -167,8 +167,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef19"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef21",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef19",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -177,7 +177,7 @@
                 "referenceId": "MatrixLineItem__cRef20"
             },
             "Obligatory__c": true,
-            "PharmaProductId__c": "@CTCPG__Product__cRef22",
+            "PharmaProductId__c": "@CTCPG__Product__cRef20",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -185,8 +185,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef21"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef23",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef21",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -194,8 +194,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef22"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef24",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef22",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -203,8 +203,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef23"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef25",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef23",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -212,8 +212,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef24"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef26",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef24",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -221,8 +221,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef25"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef27",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef25",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -230,8 +230,8 @@
                 "type": "MatrixLineItem__c",
                 "referenceId": "MatrixLineItem__cRef26"
             },
-            "Obligatory__c": false,
-            "PharmaProductId__c": "@CTCPG__Product__cRef28",
+            "Obligatory__c": true,
+            "PharmaProductId__c": "@CTCPG__Product__cRef26",
             "MatrixId__c": "@Matrix__cRef1"
         },
         {
@@ -240,7 +240,34 @@
                 "referenceId": "MatrixLineItem__cRef27"
             },
             "Obligatory__c": false,
+            "PharmaProductId__c": "@CTCPG__Product__cRef27",
+            "MatrixId__c": "@Matrix__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "MatrixLineItem__c",
+                "referenceId": "MatrixLineItem__cRef28"
+            },
+            "Obligatory__c": false,
+            "PharmaProductId__c": "@CTCPG__Product__cRef28",
+            "MatrixId__c": "@Matrix__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "MatrixLineItem__c",
+                "referenceId": "MatrixLineItem__cRef29"
+            },
+            "Obligatory__c": false,
             "PharmaProductId__c": "@CTCPG__Product__cRef29",
+            "MatrixId__c": "@Matrix__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "MatrixLineItem__c",
+                "referenceId": "MatrixLineItem__cRef30"
+            },
+            "Obligatory__c": false,
+            "PharmaProductId__c": "@CTCPG__Product__cRef30",
             "MatrixId__c": "@Matrix__cRef1"
         }
     ]

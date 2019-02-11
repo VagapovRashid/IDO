@@ -14,7 +14,6 @@
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
             "Name": "Lowfat Yogurt Vanilla",
-            "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 9
         },
         {
@@ -48,7 +47,6 @@
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
             "Name": "Shredded Cheddar Cheese",
-            "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 12,
             "CTCPG__Type__c": "Type 2"
         },
@@ -56,60 +54,6 @@
             "attributes": {
                 "type": "CTCPG__Product__c",
                 "referenceId": "CTCPG__Product__cRef4"
-            },
-            "CTCPG__IsActive__c": true,
-            "CTCPG__Brand__c": "Second Brand",
-            "CTCPG__Category__c": "Dairy",
-            "CTCPG__Description__c": "Fruit Fusion is an exciting twist on Activia's signature lowfat yogurt, offering two delicious fruit flavors, while still having billions of probiotics in every cup. Creamy lowfat yogurt with non-GMO ingredients* is folded over the masterly combined taste of strawberry and raspberry to revive your routine",
-            "CTCPG__Family__c": "Third Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/ACTIVIA%20FRUIT%20ON%20THE%20BOTTOM%20STRAWBERRY.png",
-            "PriceAudit__c": false,
-            "CTCPG__PriceAudit__c": false,
-            "Name": "Activia fruit on the bottom strawberry/raspberry",
-            "Rayon__c": "Audit_category_2",
-            "Largeur_du_produit_en_cm__c": 18,
-            "CTCPG__Type__c": "Type 1"
-        },
-        {
-            "attributes": {
-                "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef5"
-            },
-            "CTCPG__IsActive__c": true,
-            "CTCPG__Brand__c": "First Brand",
-            "CTCPG__Category__c": "Dairy",
-            "CTCPG__Description__c": "Two Good is proudly Non-GMO Project Verified!  The Non-GMO Project Verified Seal signifies that Two Good is in compliance with the Non-GMO Project standard and that Two Good is made with milk from cows who eat non-GMO Project Verified feed.  We’re honored to qualify for this distinction.",
-            "CTCPG__Family__c": "Second Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/BLUEBERRY%20GREEK%20LOWFAT%20YOGURT.png",
-            "PriceAudit__c": false,
-            "CTCPG__PriceAudit__c": false,
-            "Name": "Blueberry greek lowfat yogurt",
-            "Rayon__c": "Audit_category_2",
-            "Largeur_du_produit_en_cm__c": 10,
-            "CTCPG__Type__c": "Type 2"
-        },
-        {
-            "attributes": {
-                "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef6"
-            },
-            "CTCPG__IsActive__c": true,
-            "CTCPG__Brand__c": "First Brand",
-            "CTCPG__Category__c": "Nutrition",
-            "CTCPG__Description__c": "Cold-brew majesticness straight up. For those who like their cold-brew black and their dreams in color. No cream. No sugar. The Arabica based beans and our low & slow process is pure Stōk",
-            "CTCPG__Family__c": "Third Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/48ozUNSWEETBLACKCOLDBREWCOFFEE.png",
-            "PriceAudit__c": false,
-            "CTCPG__PriceAudit__c": false,
-            "Name": "48 oz  un-sweet black cold-brew coffee",
-            "Rayon__c": "Audit_category_1",
-            "Largeur_du_produit_en_cm__c": 9,
-            "CTCPG__Type__c": "Type 3"
-        },
-        {
-            "attributes": {
-                "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef7"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
@@ -126,19 +70,73 @@
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef5"
+            },
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Brand__c": "Second Brand",
+            "CTCPG__Category__c": "Dairy",
+            "CTCPG__Description__c": "Enrich your day with a delicious, creamy Activia lowfat yogurt, now with non-GMO ingredients.* Infused with the fresh taste of peach and with billions of probiotics in every cup a great way to start every day",
+            "CTCPG__Family__c": "Third Family",
+            "Image_URL__c": "https://heyguys.ru/image/product/ACTIVIA%20PEACH%20PROBIOTIC%20YOGURT.png",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Name": "Peach Probiotic Yogurt",
+            "Rayon__c": "Audit_category_2",
+            "Largeur_du_produit_en_cm__c": 18,
+            "CTCPG__Type__c": "Type 1"
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef6"
+            },
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Brand__c": "First Brand",
+            "CTCPG__Category__c": "Nutrition",
+            "CTCPG__Description__c": "REAL MILK, REAL CREAM, REAL SUGAR.\r\nAnother fresh idea out of Left Field.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://heyguys.ru/image/product/Vanila%20Coffee%20Creamer.png",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Name": "Vanila Coffee Creamer",
+            "Rayon__c": "Audit_category_1",
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef7"
+            },
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Brand__c": "First Brand",
+            "CTCPG__Category__c": "Dairy",
+            "CTCPG__Description__c": "Refresh yourself anytime, anywhere with an Activia Drink. With the fresh taste of strawberry and banana and billions of probiotics in every bottle, these cool and creamy smoothies taste great. Grab one and go today.",
+            "CTCPG__Family__c": "Second Family",
+            "Image_URL__c": "https://heyguys.ru/image/product/ACTIVIA%20STRAWBERRY%20BANANA%20PROBIOTIC%20DRINK.png",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Name": "Strawberry Banana Probiotic Drink",
+            "Rayon__c": "Audit_category_1",
+            "Largeur_du_produit_en_cm__c": 7,
+            "CTCPG__Type__c": "Type 3"
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
                 "referenceId": "CTCPG__Product__cRef8"
             },
             "CTCPG__IsActive__c": true,
-            "CTCPG__Brand__c": "Third Brand",
-            "CTCPG__Category__c": "Nutrition",
-            "CTCPG__Family__c": "Third Family",
-            "Image_URL__c": "https://www.stokbrew.com/wp-content/uploads/2018/07/stok-mocha-cold-brew-coffee-13.7oz.png",
+            "CTCPG__Brand__c": "First Brand",
+            "CTCPG__Category__c": "Dairy",
+            "CTCPG__Description__c": "Two Good is proudly Non-GMO Project Verified!  The Non-GMO Project Verified Seal signifies that Two Good is in compliance with the Non-GMO Project standard and that Two Good is made with milk from cows who eat non-GMO Project Verified feed.  We’re honored to qualify for this distinction.",
+            "CTCPG__Family__c": "Second Family",
+            "Image_URL__c": "https://heyguys.ru/image/product/BLUEBERRY%20GREEK%20LOWFAT%20YOGURT.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "13.7 oz  mocha black cold-brew coffee",
-            "Rayon__c": "Audit_category_1",
-            "Largeur_du_produit_en_cm__c": 9,
-            "CTCPG__Type__c": "Type 1"
+            "Name": "Blueberry Lowfat Yogurt",
+            "Rayon__c": "Audit_category_2",
+            "Largeur_du_produit_en_cm__c": 10,
+            "CTCPG__Type__c": "Type 2"
         },
         {
             "attributes": {
@@ -148,12 +146,29 @@
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Third Brand",
             "CTCPG__Category__c": "Nutrition",
+            "CTCPG__Family__c": "Third Family",
+            "Image_URL__c": "https://www.stokbrew.com/wp-content/uploads/2018/07/stok-mocha-cold-brew-coffee-13.7oz.png",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Name": "Black Cold-Brew Coffee",
+            "Rayon__c": "Audit_category_1",
+            "Largeur_du_produit_en_cm__c": 9,
+            "CTCPG__Type__c": "Type 1"
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef10"
+            },
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Brand__c": "Third Brand",
+            "CTCPG__Category__c": "Nutrition",
             "CTCPG__Description__c": "Tangy, sweet and ready for anything that needs tropical sunshine",
             "CTCPG__Family__c": "Second Family",
             "Image_URL__c": "https://heyguys.ru/image/product/FROZEN%20ORGANIC%20MANGO.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Frozen organic mango",
+            "Name": "Frozen Organic Mango",
             "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 20,
             "CTCPG__Type__c": "Type 1"
@@ -161,7 +176,7 @@
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef10"
+                "referenceId": "CTCPG__Product__cRef11"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Third Brand",
@@ -179,7 +194,7 @@
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef11"
+                "referenceId": "CTCPG__Product__cRef12"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
@@ -189,7 +204,7 @@
             "Image_URL__c": "https://heyguys.ru/image/product/STRAWBERRY%20GREEK%20LOWFAT%20YOGUR.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Strawberry greek lowfat yogur",
+            "Name": "Strawberry Lowfat Yogur",
             "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 10,
             "CTCPG__Type__c": "Type 2"
@@ -197,7 +212,7 @@
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef12"
+                "referenceId": "CTCPG__Product__cRef13"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
@@ -206,27 +221,10 @@
             "Image_URL__c": "https://heyguys.ru/image/product/VEGA%20ONE%20ORGANIC%20ALL-IN-ONE%20SHAKE.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Vega one organic all-in-one shake",
+            "Name": "One Organic all-in-one Shake",
             "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 21,
             "CTCPG__Type__c": "Type 1"
-        },
-        {
-            "attributes": {
-                "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef13"
-            },
-            "CTCPG__IsActive__c": true,
-            "CTCPG__Brand__c": "Third Brand",
-            "CTCPG__Category__c": "Nutrition",
-            "CTCPG__Description__c": "Kids’ go bananas for strawberry banana Danimals lowfat yogurt. Made with, all natural ingredients with vitamin D, Danimals Swingin’ Strawberry Banana Yo-Tubes also have no artificial colors, flavors, or preservative ingredients. Perfect when the kids are monkeying around.",
-            "CTCPG__Family__c": "First Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/SWINGIN%E2%80%99%20STRAWBERRY%20BANANA%20YO-TUBES.jpg",
-            "PriceAudit__c": false,
-            "CTCPG__PriceAudit__c": false,
-            "Name": "Swingin’ strawberry banana yo-tubes",
-            "Rayon__c": "Audit_category_3",
-            "Largeur_du_produit_en_cm__c": 5
         },
         {
             "attributes": {
@@ -238,10 +236,10 @@
             "CTCPG__Category__c": "Nutrition",
             "CTCPG__Description__c": "natural mineral water",
             "CTCPG__Family__c": "First Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/lenoar.jpg",
+            "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/global/pack_shot/41000002717-1470091-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Lanjarón Red",
+            "Name": "Decaf Black Tea",
             "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 9,
             "CTCPG__Type__c": "Type 2"
@@ -259,7 +257,7 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Lowfat%20Chocolate%20Milk%20with%20DHA%20Omega-3.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Lowfat Chocolate Milk with DHA Omega-3",
+            "Name": "Lowfat Chocolate Milk",
             "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 10,
             "CTCPG__Type__c": "Type 1"
@@ -277,7 +275,7 @@
             "Image_URL__c": "https://heyguys.ru/image/product/VEGA%20SPORT%20PROTEIN%20BAR.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Vega sport protein bar",
+            "Name": "Sport Protein Bar",
             "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 4,
             "CTCPG__Type__c": "Type 3"
@@ -292,10 +290,10 @@
             "CTCPG__Category__c": "Dairy",
             "CTCPG__Description__c": "Enrich your day with a delicious, creamy Activia lowfat yogurt, now with non-GMO ingredients.* Infused with the fresh taste of peach and with billions of probiotics in every cup a great way to start every day",
             "CTCPG__Family__c": "Third Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/ACTIVIA%20PEACH%20PROBIOTIC%20YOGURT.png",
+            "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/global/pack_shot/041000004384-1019224-1464063-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Activia peach probiotic yogurt",
+            "Name": "Strawberry Watermelon Iced Herbal Tea",
             "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 18,
             "CTCPG__Type__c": "Type 1"
@@ -307,15 +305,16 @@
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
-            "CTCPG__Category__c": "Nutrition",
-            "CTCPG__Description__c": "REAL MILK, REAL CREAM, REAL SUGAR.\r\nAnother fresh idea out of Left Field.",
-            "CTCPG__Family__c": "First Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/Vanila%20Coffee%20Creamer.png",
+            "CTCPG__Category__c": "Dairy",
+            "CTCPG__Description__c": "Refresh yourself anytime, anywhere with an Activia Drink. With the fresh taste of strawberry and banana and billions of probiotics in every bottle, these cool and creamy smoothies taste great. Grab one and go today.",
+            "CTCPG__Family__c": "Second Family",
+            "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/united_states_of_america/pack_shot/041000100291-1257996-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Vanila Coffee Creamer",
+            "Name": "Lemon Ginseng Green Tea",
             "Rayon__c": "Audit_category_1",
-            "Largeur_du_produit_en_cm__c": 10
+            "Largeur_du_produit_en_cm__c": 7,
+            "CTCPG__Type__c": "Type 3"
         },
         {
             "attributes": {
@@ -324,38 +323,20 @@
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
-            "CTCPG__Category__c": "Dairy",
-            "CTCPG__Description__c": "Refresh yourself anytime, anywhere with an Activia Drink. With the fresh taste of strawberry and banana and billions of probiotics in every bottle, these cool and creamy smoothies taste great. Grab one and go today.",
-            "CTCPG__Family__c": "Second Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/ACTIVIA%20STRAWBERRY%20BANANA%20PROBIOTIC%20DRINK.png",
-            "PriceAudit__c": false,
-            "CTCPG__PriceAudit__c": false,
-            "Name": "Activia strawberry banana probiotic drink",
-            "Rayon__c": "Audit_category_1",
-            "Largeur_du_produit_en_cm__c": 7,
-            "CTCPG__Type__c": "Type 3"
-        },
-        {
-            "attributes": {
-                "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef20"
-            },
-            "CTCPG__IsActive__c": true,
-            "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Nutrition",
             "CTCPG__Description__c": "Badoit is a brand of mineral water obtained from natural sources at Saint-Galmier, France. The water is naturally carbonated, on its journey through granite rocks and subterranean gas deposits",
             "CTCPG__Family__c": "First Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/Badoit.jpg",
+            "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/united_states_of_america/pack_shot/041000072390-1258770-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Badoit",
+            "Name": "Peach Paradise Green Tea",
             "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 9
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef21"
+                "referenceId": "CTCPG__Product__cRef20"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Third Brand",
@@ -365,14 +346,14 @@
             "Image_URL__c": "https://heyguys.ru/image/product/COCONUT%20CHOCOLATE%20BLISS%20NONFAT%20GREEK%20YOGURT%20CRUNCH.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Coconut chocolate bliss nonfat greek yogurt crunch",
+            "Name": "Coconut Chocolate Bliss",
             "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 10
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef22"
+                "referenceId": "CTCPG__Product__cRef21"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
@@ -382,14 +363,14 @@
             "Image_URL__c": "https://heyguys.ru/image/product/NavelOrganges.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Fresh organic navel oranges",
+            "Name": "Fresh Organic Navel Oranges",
             "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 23
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef23"
+                "referenceId": "CTCPG__Product__cRef22"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
@@ -399,7 +380,25 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Blackberries-1.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Frozen organic blackberries",
+            "Name": "Frozen Organic Blackberries",
+            "Rayon__c": "Audit_category_3",
+            "Largeur_du_produit_en_cm__c": 20,
+            "CTCPG__Type__c": "Type 1"
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef23"
+            },
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Brand__c": "Third Brand",
+            "CTCPG__Category__c": "Nutrition",
+            "CTCPG__Description__c": "A tasty, nutritious treat with no added sugar",
+            "CTCPG__Family__c": "Second Family",
+            "Image_URL__c": "https://heyguys.ru/image/product/ORGANIC%20DRIED%20MANGOS.png",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Name": "Organic Dried Mangos",
             "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 20,
             "CTCPG__Type__c": "Type 1"
@@ -410,22 +409,39 @@
                 "referenceId": "CTCPG__Product__cRef24"
             },
             "CTCPG__IsActive__c": true,
-            "CTCPG__Brand__c": "Third Brand",
-            "CTCPG__Category__c": "Nutrition",
-            "CTCPG__Description__c": "A tasty, nutritious treat with no added sugar",
-            "CTCPG__Family__c": "Second Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/ORGANIC%20DRIED%20MANGOS.png",
+            "CTCPG__Brand__c": "Second Brand",
+            "CTCPG__Category__c": "Dairy",
+            "CTCPG__Description__c": "Enrich your day with a delicious, creamy Activia lowfat yogurt, now with non-GMO ingredients.* Infused with the fresh taste of mango and with billions of probiotics in every cup a great way to start every day",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/united_states_of_america/pack_shot/041000077203-1224798-png-1458901-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Organic dried mangos",
-            "Rayon__c": "Audit_category_3",
-            "Largeur_du_produit_en_cm__c": 20,
+            "Name": "Pure Green Tea",
+            "Rayon__c": "Audit_category_2",
+            "Largeur_du_produit_en_cm__c": 18,
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
                 "referenceId": "CTCPG__Product__cRef25"
+            },
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Brand__c": "Second Brand",
+            "CTCPG__Category__c": "Dairy",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/united_states_of_america/pack_shot/41000377242-1458911-jpg.jpg.ulenscale.490x490.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Name": "Iced Tea Unsweetened",
+            "Rayon__c": "Audit_category_1",
+            "Largeur_du_produit_en_cm__c": 26,
+            "CTCPG__Type__c": "Type 2"
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef26"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
@@ -443,7 +459,7 @@
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef26"
+                "referenceId": "CTCPG__Product__cRef27"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
@@ -461,7 +477,7 @@
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef27"
+                "referenceId": "CTCPG__Product__cRef28"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
@@ -471,7 +487,7 @@
             "Image_URL__c": "https://heyguys.ru/image/product/ACTIVIA%20MANGO%20PROBIOTIC%20YOGURT.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Activia mango probiotic yogurt",
+            "Name": "Mango Probiotic Yogurt",
             "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 18,
             "CTCPG__Type__c": "Type 1"
@@ -479,7 +495,7 @@
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef28"
+                "referenceId": "CTCPG__Product__cRef29"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Third Brand",
@@ -497,7 +513,7 @@
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef29"
+                "referenceId": "CTCPG__Product__cRef30"
             },
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
@@ -507,7 +523,7 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Activia%20Dailies%20Strawberry%20Blueberry%20Probiotic%20Drink%208%20pack.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Activia Dailies Strawberry/Blueberry Probiotic Drink 8 pack",
+            "Name": "Strawberry/Blueberry Probiotic Drink 8 pack",
             "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 26,
             "CTCPG__Type__c": "Type 2"
