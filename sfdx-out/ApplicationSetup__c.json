@@ -1,0 +1,43 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "clm__ApplicationSetup__c",
+                "referenceId": "clm__ApplicationSetup__cRef1"
+            },
+            "clm__AccountFullAddressAPIField__c": "FullAddress__c",
+            "clm__AccountGeolocationAPIField__c": "Geolocation__c",
+            "clm__ActivityDescriptionAPI__c": "CTCPG__Description__c,Description,Description",
+            "clm__ActivityEndDateAPI__c": "CTCPG__EndDate__c,EndDateTime,ActivityDate",
+            "clm__ActivityGeolocationAPIField__c": "Geolocation__c,Geolocation__c,Geolocation__c",
+            "clm__ActivityFieldAPI__c": "CTCPG__ActivityId__c,EventId__c,TaskId__c",
+            "clm__ActivityObjectAPIName__c": "CTCPG__Activity__c,Event,Task",
+            "clm__ActivityDateAPI__c": "CTCPG__StartDate__c,StartDateTime,ActivityDate",
+            "clm__ActivityStatusAPI__c": "CTCPG__Status__c,null,Status",
+            "clm__AllowWebSharing__c": false,
+            "clm__AppInstallURL__c": "https://www.ctmobile.net/download/",
+            "clm__CalendarView__c": "week",
+            "clm__CaptureGeoposition__c": true,
+            "clm__CloudToken__c": "d7c6f75086553b545788523b09c1a9eb93cc0dbf92d45c5a6c",
+            "clm__DebugLevel__c": "Error",
+            "clm__DefaultEventDuration__c": 30,
+            "clm__GeoTraceInterval__c": 60,
+            "clm__GoogleMapsAPIKey__c": "AIzaSyDGjrQC-y-hacbLx1UfcvQb9oWVuAdVgd0",
+            "clm__GoogleMapsJSKey__c": "AIzaSyDGIeVgmio7Jk0zl1P5Wdvb1r-hEmuuGOY",
+            "clm__EnableLockUnlock__c": true,
+            "clm__MetadataLastModifiedDate__c": "2018-09-04T08:07:17.000+0000",
+            "clm__IsPasscodeEnabled__c": false,
+            "clm__IsPersonAccountsEnabled__c": false,
+            "clm__ProductFieldAPI__c": "CTCPG__ProductId_auto__c",
+            "clm__ProductObjectAPIName__c": "CTCPG__Product__c",
+            "clm__PUSHHUBName__c": "CTMobile",
+            "clm__ReferenceObjectAPIName__c": "AccountContactRelation",
+            "clm__IsWeekSwitchShowed__c": true,
+            "clm__EnableStartFinish__c": true,
+            "clm__Theme__c": "rgb(93,188,210)",
+            "clm__UpdateDateFields__c": false,
+            "clm__VisibleHourRange__c": "(8,22)",
+            "clm__WeekFormat__c": "mo,mo,fr"
+        }
+    ]
+}

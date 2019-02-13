@@ -1,0 +1,16 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "clm__TopLvlObjects__c",
+                "referenceId": "clm__TopLvlObjects__cRef1"
+            },
+            "clm__ConflictManagerAttribute__c": "false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false",
+            "clm__GroupFields__c": "null,RecordTypeId,null,null,null,null,null,null,null,null",
+            "clm__MenuSettings__c": "Home,Account,Contact,Calendar,CTCPG__Activity__c,Applications,Dashboards,NearbyAccounts,Chatter,Settings",
+            "clm__TopLvlObjects__c": "001,aDo,0KK,003,aCZ,aCd,aCa,aCg,aCf,aD0,00U,aDY,aDX,006,00k,00q,801,aDg,0Q0,a2d,07p,0D7,0D5,0I0",
+            "clm__OnlineAttribute__c": "false,false,false,false,false,false,false,false,false,false",
+            "clm__SortOrder__c": "null,ASC,,,,,,,,null"
+        }
+    ]
+}

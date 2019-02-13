@@ -22,5 +22,37 @@
         "files": [
             "MatrixLineItem__c.json"
         ]
+    },
+	{
+        "sobject": "clm__ApplicationSetup__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ApplicationSetup__c.json"
+        ]
+    },
+	{
+        "sobject": "clm__MobileCustomization__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "MobileCustomization__c.json"
+        ]
+    },
+	{
+        "sobject": "clm__MobileLayoutSettings__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "MobileLayoutSettings__c.json"
+        ]
+    },
+	{
+        "sobject": "clm__TopLvlObjects__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "TopLvlObjects__c.json"
+        ]
     }
 ]
