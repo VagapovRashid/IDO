@@ -9,7 +9,8 @@
             "clm__Fields__c": "CTCPG__StartDate__c,CTCPG__EndDate__c,CTCPG__Description__c",
             "clm__RecordtypeDeveloperName__c": "Timeoff",
             "clm__RequiredAttribute__c": "true,false,false",
-            "clm__SObject__c": "CTCPG__Activity__c"
+            "clm__SObject__c": "CTCPG__Activity__c",
+            "Name": "New Timeoff"
         },
         {
             "attributes": {
@@ -20,7 +21,8 @@
             "clm__Fields__c": "CTCPG__StartDate__c,CTCPG__UserId__c,CTCPG__Description__c",
             "clm__RecordtypeDeveloperName__c": "JointVisit",
             "clm__RequiredAttribute__c": "true,false,false",
-            "clm__SObject__c": "CTCPG__Activity__c"
+            "clm__SObject__c": "CTCPG__Activity__c",
+            "Name": "New Joint Visit"
         },
         {
             "attributes": {
@@ -30,7 +32,8 @@
             "clm__Action__c": "New",
             "clm__Fields__c": "FirstName,LastName,AccountId,MobilePhone,Email",
             "clm__RequiredAttribute__c": "false,true,true,false,false",
-            "clm__SObject__c": "Contact"
+            "clm__SObject__c": "Contact",
+            "Name": "New Contact"
         },
         {
             "attributes": {
@@ -41,7 +44,8 @@
             "clm__Fields__c": "CTCPG__StartDate__c,CTCPG__Objective__c,CTCPG__Description__c",
             "clm__RecordtypeDeveloperName__c": "Event",
             "clm__RequiredAttribute__c": "true,false,false",
-            "clm__SObject__c": "CTCPG__Activity__c"
+            "clm__SObject__c": "CTCPG__Activity__c",
+            "Name": "New Event"
         },
         {
             "attributes": {
@@ -52,7 +56,8 @@
             "clm__Fields__c": "Name,Phone,Description",
             "clm__RecordtypeDeveloperName__c": "Account_Temporary",
             "clm__RequiredAttribute__c": "true,false,false",
-            "clm__SObject__c": "Account"
+            "clm__SObject__c": "Account",
+            "Name": "New Temporary Account"
         },
         {
             "attributes": {
@@ -63,7 +68,8 @@
             "clm__Fields__c": "Name,Phone,Description",
             "clm__RecordtypeDeveloperName__c": "Account_Succession",
             "clm__RequiredAttribute__c": "true,false,false",
-            "clm__SObject__c": "Account"
+            "clm__SObject__c": "Account",
+            "Name": "New Succession Account"
         },
         {
             "attributes": {
@@ -74,7 +80,8 @@
             "clm__Fields__c": "AccountId__c",
             "clm__RecordtypeDeveloperName__c": "Assortiment",
             "clm__RequiredAttribute__c": "false",
-            "clm__SObject__c": "Assortiment__c"
+            "clm__SObject__c": "Assortiment__c",
+            "Name": "New Assortment"
         },
         {
             "attributes": {
@@ -85,7 +92,8 @@
             "clm__Fields__c": "ActivityDate,Subject,WhatId,Description",
             "clm__RecordtypeDeveloperName__c": "Task",
             "clm__RequiredAttribute__c": "true,true,false,false",
-            "clm__SObject__c": "Task"
+            "clm__SObject__c": "Task",
+            "Name": "New Task"
         },
         {
             "attributes": {
@@ -96,7 +104,8 @@
             "clm__Fields__c": "CTCPG__StartDate__c,CTCPG__AccountId__c,CTCPG__Objective__c,CTCPG__Description__c",
             "clm__RecordtypeDeveloperName__c": "Visit",
             "clm__RequiredAttribute__c": "true,false,false,false",
-            "clm__SObject__c": "CTCPG__Activity__c"
+            "clm__SObject__c": "CTCPG__Activity__c",
+            "Name": "New Visit"
         },
         {
             "attributes": {
@@ -107,7 +116,8 @@
             "clm__Fields__c": "Name,CTCPG__DivisionAlphaCategory__c,Type,Industry,Phone",
             "clm__RecordtypeDeveloperName__c": "Account",
             "clm__RequiredAttribute__c": "true,false,false,false,false",
-            "clm__SObject__c": "Account"
+            "clm__SObject__c": "Account",
+            "Name": "New Account"
         },
         {
             "attributes": {
@@ -118,7 +128,8 @@
             "clm__Fields__c": "CTCPG__AccountId__c,CTCPG__StartDate__c,CTCPG__EndDate__c",
             "clm__RecordtypeDeveloperName__c": "DemoAudit",
             "clm__RequiredAttribute__c": "true,false,false",
-            "clm__SObject__c": "CTCPG__Activity__c"
+            "clm__SObject__c": "CTCPG__Activity__c",
+            "Name": "Audit"
         }
     ]
 }

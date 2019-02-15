@@ -24,14 +24,6 @@
         ]
     },
 	{
-        "sobject": "clm__ApplicationSetup__c",
-        "saveRefs": true,
-        "resolveRefs": false,
-        "files": [
-            "ApplicationSetup__c.json"
-        ]
-    },
-	{
         "sobject": "clm__MobileCustomization__c",
         "saveRefs": true,
         "resolveRefs": false,
@@ -45,14 +37,6 @@
         "resolveRefs": false,
         "files": [
             "MobileLayoutSettings__c.json"
-        ]
-    },
-	{
-        "sobject": "clm__TopLvlObjects__c",
-        "saveRefs": true,
-        "resolveRefs": false,
-        "files": [
-            "TopLvlObjects__c.json"
         ]
     }
 ]
