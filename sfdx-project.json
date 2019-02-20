@@ -3,7 +3,7 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "44.0",
     "packageAliases": {
-        "ct_mobile": "04t0H000001ICDWQA4",
+        "ct_mobile": "04t0H000001ICqn",
         "ct_cpg": "04t1n000002KOy9AAG",
         "ido": "0Ho1U000000PAuYSAW",
         "ido@1.0.0-1": "04t1U000002wLGFQA2",
@@ -13,7 +13,8 @@
         "ido@1.0.1-1": "04t1U000004OMP9QAO",
         "ido@1.0.2-1": "04t1U000004OOTJQA4",
         "ido@1.0.3-1": "04t1U000004P3E6QAK",
-        "ido@1.0.4-1": "04t1U0000056EHxQAM"
+        "ido@1.0.4-1": "04t1U0000056EHxQAM",
+        "ido@1.0.5-2": "04t1U000002ynM4QAI"
     },
     "packageDirectories": [
         {
@@ -21,7 +22,7 @@
             "definitionFile": "def.json",
             "package": "ido",
             "versionName": "Winter 2019",
-            "versionNumber": "1.0.4.NEXT",
+            "versionNumber": "1.0.5.NEXT",
             "default": true,
             "dependencies": [
                 {
