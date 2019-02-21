@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>AccountMatrixId__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID( CTCPG__AccountId__r.MatrixId__r.Id )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AccountMatrixId</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Confirmed_visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Confirmed visit</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CountActivityDataFacing__c</fullName>
+        <externalId>false</externalId>
+        <label>Count Activity Data + Facing</label>
+        <summaryFilterItems>
+            <field>CTCPG__ActivityData__c.Obligatory__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryFilterItems>
+            <field>CTCPG__ActivityData__c.Facing__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </summaryFilterItems>
+        <summaryForeignKey>CTCPG__ActivityData__c.CTCPG__ActivityId__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>CountActivityData__c</fullName>
+        <externalId>false</externalId>
+        <label>Count Activity Data</label>
+        <summaryFilterItems>
+            <field>CTCPG__ActivityData__c.Obligatory__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </summaryFilterItems>
+        <summaryForeignKey>CTCPG__ActivityData__c.CTCPG__ActivityId__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>DNFormula__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(  CountActivityData__c  =0,0,
+ CountActivityDataFacing__c  /  CountActivityData__c  )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DN Formula</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DN_Audit_Category_1__c</fullName>
+        <externalId>false</externalId>
+        <label>DN Audit Category 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DN_Audit_Category_2__c</fullName>
+        <externalId>false</externalId>
+        <label>DN Audit Category 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DN_Audit_Category_3__c</fullName>
+        <externalId>false</externalId>
+        <label>DN Audit Category 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>DN__c</fullName>
+        <externalId>false</externalId>
+        <label>DN</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>EndGeolocation__c</fullName>
+        <displayLocationInDecimal>true</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <label>End Geolocation</label>
+        <required>false</required>
+        <scale>6</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Location</type>
+    </fields>
+    <fields>
+        <fullName>EndOccurancyGeo__c</fullName>
+        <externalId>false</externalId>
+        <label>End Geolocation Accuracy</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FactDuration__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( 
+FLOOR(MOD(( FactEndDate__c - FactStartDate__c )*24,24)) 
+) &amp;&quot; h &quot; &amp; 
+TEXT( 
+ROUND(MOD((FactEndDate__c - FactStartDate__c)*1440,60),0) 
+) &amp;&quot; min &quot;</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fact Duration</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>FactEndDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Fact End Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>FactStartDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Fact Start Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>GeoConfirmed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Geolocation Confirmed</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Geolocation__c</fullName>
+        <displayLocationInDecimal>true</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <label>Geolocation</label>
+        <required>false</required>
+        <scale>6</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Location</type>
+    </fields>
+    <fields>
+        <fullName>PDLFormula__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TotalShelfSpace__c=0,0,
+TotalShelfSpace__c/ ShelfSpace__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>PDL Formula</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PDL_Audit_Category_1__c</fullName>
+        <externalId>false</externalId>
+        <label>PDL Audit Category 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PDL_Audit_Category_2__c</fullName>
+        <externalId>false</externalId>
+        <label>PDL Audit Category 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PDL_Audit_Category_3__c</fullName>
+        <externalId>false</externalId>
+        <label>PDL Audit Category 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PDL__c</fullName>
+        <externalId>false</externalId>
+        <label>PDL</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>RDLink__c</fullName>
+        <description>CT Mobile RD Link</description>
+        <externalId>false</externalId>
+        <label>RD Link</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>ShelfSpace__c</fullName>
+        <defaultValue>10000</defaultValue>
+        <externalId>false</externalId>
+        <label>Shelf Space</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StartGeolocation__c</fullName>
+        <displayLocationInDecimal>false</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <label>Start Geolocation</label>
+        <required>false</required>
+        <scale>6</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Location</type>
+    </fields>
+    <fields>
+        <fullName>StartOccurancyGeo__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Geolocation Accuracy</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Subject__c</fullName>
+        <description>ctmobile.combobox(Planned Visit,Unplanned visit,Meeting,Presentation)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is for demonstration purposes only. It is shown as a combobox in CT Mobile.</inlineHelpText>
+        <label>Subject</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>TotalShelfLength__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Shelf Length</label>
+        <summarizedField>CTCPG__ActivityData__c.ShelfLength__c</summarizedField>
+        <summaryForeignKey>CTCPG__ActivityData__c.CTCPG__ActivityId__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>TotalShelfSpace__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Shelf Space</label>
+        <summarizedField>CTCPG__ActivityData__c.largeur_du_produit_en_cm_num__c</summarizedField>
+        <summaryForeignKey>CTCPG__ActivityData__c.CTCPG__ActivityId__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <compactLayouts>
+        <fullName>Mobile_activity</fullName>
+        <fields>RecordTypeId</fields>
+        <fields>CTCPG__AccountId__c</fields>
+        <label>Mobile activity</label>
+    </compactLayouts>
+    <recordTypes>
+        <fullName>DemoAudit</fullName>
+        <active>true</active>
+        <label>Audit</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Mobile_DemoAudit</fullName>
+        <active>false</active>
+        <compactLayoutAssignment>Mobile_activity</compactLayoutAssignment>
+        <label>Mobile Audit</label>
+    </recordTypes>
+</CustomObject>

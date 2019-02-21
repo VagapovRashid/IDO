@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Create Activity Data</label>
+    <protected>false</protected>
+    <values>
+        <field>clm__Action__c</field>
+        <value xsi:type="xsd:string">Create record</value>
+    </values>
+    <values>
+        <field>clm__FieldAPIName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>clm__FieldAPINames__c</field>
+        <value xsi:type="xsd:string">CTCPG__ProductId__c,Obligatory__c,IsPromo__c,isInno__c,SortOrder__c,isPromoOnShelf__c,CTCPG__IsPresent__c,largeur_du_produit_en_cm_num__c</value>
+    </values>
+    <values>
+        <field>clm__FieldValue__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>clm__FieldValues__c</field>
+        <value xsi:type="xsd:string">$query.PharmaProductId__c,$query.Obligatory__c,$query.IsPromo__c,$query.isInno__c,$query.SortOrder__c,$query.IsPromo__c,$query.CTCPG__IsPresent__c,$query.largeur_du_produit_en_cm_facing__c</value>
+    </values>
+    <values>
+        <field>clm__IsCalculateEnabled__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>clm__Order__c</field>
+        <value xsi:type="xsd:double">2.0</value>
+    </values>
+    <values>
+        <field>clm__ParentObjectAPIName__c</field>
+        <value xsi:type="xsd:string">CTCPG__Activity__c</value>
+    </values>
+    <values>
+        <field>clm__ParentObject__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>clm__RecordCriteria__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>clm__RelationshipName__c</field>
+        <value xsi:type="xsd:string">CTCPG__ActivityId__r</value>
+    </values>
+    <values>
+        <field>clm__SOQLObjectAPIName__c</field>
+        <value xsi:type="xsd:string">MatrixLineItem__c</value>
+    </values>
+    <values>
+        <field>clm__SOQLQuery__c</field>
+        <value xsi:type="xsd:string">where MatrixId__c = $sObject.AccountMatrixId__c</value>
+    </values>
+    <values>
+        <field>clm__SOQLRecordCriteria__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>clm__SQOLObjectAPIName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>clm__Scope__c</field>
+        <value xsi:type="xsd:string">Related records</value>
+    </values>
+    <values>
+        <field>clm__Target__c</field>
+        <value xsi:type="xsd:string">This record</value>
+    </values>
+    <values>
+        <field>clm__WorkflowId__c</field>
+        <value xsi:type="xsd:string">Audit_ActivityUpdateAfterStart</value>
+    </values>
+    <values>
+        <field>clm__sObjectRelated__c</field>
+        <value xsi:type="xsd:string">CTCPG__ActivityData__c</value>
+    </values>
+</CustomMetadata>

@@ -14,7 +14,8 @@
         "ido@1.0.2-1": "04t1U000004OOTJQA4",
         "ido@1.0.3-1": "04t1U000004P3E6QAK",
         "ido@1.0.4-1": "04t1U0000056EHxQAM",
-        "ido@1.0.5-2": "04t1U000002ynM4QAI"
+        "ido@1.0.5-2": "04t1U000002ynM4QAI",
+        "ido@1.0.6-2": "04t1U000002ynloQAA"
     },
     "packageDirectories": [
         {
@@ -22,7 +23,7 @@
             "definitionFile": "def.json",
             "package": "ido",
             "versionName": "Winter 2019",
-            "versionNumber": "1.0.5.NEXT",
+            "versionNumber": "1.0.6.NEXT",
             "default": true,
             "dependencies": [
                 {

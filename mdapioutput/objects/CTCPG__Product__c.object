@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Brand__c</fullName>
+        <externalId>false</externalId>
+        <label>Brand</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CT_Products</fullName>
+                    <default>false</default>
+                    <label>CT Products</label>
+                </value>
+                <value>
+                    <fullName>Valio</fullName>
+                    <default>false</default>
+                    <label>Valio</label>
+                </value>
+                <value>
+                    <fullName>Actimel</fullName>
+                    <default>false</default>
+                    <label>Actimel</label>
+                </value>
+                <value>
+                    <fullName>Activia</fullName>
+                    <default>false</default>
+                    <label>Activia</label>
+                </value>
+                <value>
+                    <fullName>Bio Max</fullName>
+                    <default>false</default>
+                    <label>Bio Max</label>
+                </value>
+                <value>
+                    <fullName>Fruttis</fullName>
+                    <default>false</default>
+                    <label>Fruttis</label>
+                </value>
+                <value>
+                    <fullName>Danone</fullName>
+                    <default>false</default>
+                    <label>Danone</label>
+                </value>
+                <value>
+                    <fullName>Danissimo</fullName>
+                    <default>false</default>
+                    <label>Danissimo</label>
+                </value>
+                <value>
+                    <fullName>Parmalat</fullName>
+                    <default>false</default>
+                    <label>Parmalat</label>
+                </value>
+                <value>
+                    <fullName>Bio Balance</fullName>
+                    <default>false</default>
+                    <label>Bio Balance</label>
+                </value>
+                <value>
+                    <fullName>Edelweiss</fullName>
+                    <default>false</default>
+                    <label>Edelweiss</label>
+                </value>
+                <value>
+                    <fullName>Ermigurt</fullName>
+                    <default>false</default>
+                    <label>Ermigurt</label>
+                </value>
+                <value>
+                    <fullName>Mr. Ricco</fullName>
+                    <default>false</default>
+                    <label>Mr. Ricco</label>
+                </value>
+                <value>
+                    <fullName>Epica</fullName>
+                    <default>false</default>
+                    <label>Epica</label>
+                </value>
+                <value>
+                    <fullName>Nestle</fullName>
+                    <default>false</default>
+                    <label>Nestle</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ExternalID__c</fullName>
+        <externalId>true</externalId>
+        <label>External Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Image_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Image URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Largeur_du_produit_en_cm__c</fullName>
+        <defaultValue>10</defaultValue>
+        <externalId>false</externalId>
+        <label>Shelf Length</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>1</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PriceAudit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Need Price Audit</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ProductFamily__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SFDC_apps</fullName>
+                    <default>false</default>
+                    <label>SFDC apps</label>
+                </value>
+                <value>
+                    <fullName>Mobile_apps</fullName>
+                    <default>false</default>
+                    <label>Mobile apps</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Image__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( Image_URL__c , &quot;no image&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Image</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rayon__c</fullName>
+        <externalId>false</externalId>
+        <label>Rayon</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Audit_category_1</fullName>
+                    <default>false</default>
+                    <label>Audit category 1</label>
+                </value>
+                <value>
+                    <fullName>Audit_category_2</fullName>
+                    <default>false</default>
+                    <label>Audit category 2</label>
+                </value>
+                <value>
+                    <fullName>Audit_category_3</fullName>
+                    <default>false</default>
+                    <label>Audit category 3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
