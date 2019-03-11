@@ -28,6 +28,11 @@
     <members>MatrixLineItem__c-Mobile Matrix Line Item Layout</members>
     <members>Matrix__c-Matrix Layout</members>
     <members>Matrix__c-Mobile Matrix Layout</members>
+	<members>VisitDialogLayoutSettings__mdt-Visit Dialog Layout Settings Layout</members>
+	<members>VisitDialogSectionSettings__mdt-Visit Dialog Section Settings Layout</members>
+	<members>VisitDialogTabSettings__mdt-Visit Dialog Tab Settings Layout</members>
+	<members>clm__WorkflowStep__mdt-clm__CT Mobile Workflow Step Layout</members>
+	<members>clm__Workflow__mdt-clm__CT Mobile Workflow Layout</members>
   </types>
   <types>
     <name>CustomField</name>
