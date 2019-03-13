@@ -45,6 +45,7 @@
     <members>Account.PDL_Audit_Category_2__c</members>
     <members>Account.PDL_Audit_Category_3__c</members>
     <members>Account.PDL__c</members>
+	<members>CTCPG__ActivityData__c.CORE_ProductImageFileName__c</members>
     <members>CTCPG__ActivityData__c.Facing__c</members>
     <members>CTCPG__ActivityData__c.Obligatory__c</members>
     <members>CTCPG__ActivityData__c.Quantity__c</members>
@@ -81,6 +82,7 @@
     <members>CTCPG__Activity__c.TotalShelfLength__c</members>
     <members>CTCPG__Activity__c.TotalShelfSpace__c</members>
     <members>CTCPG__Product__c.Brand__c</members>
+	<members>CTCPG__Product__c.CORE_ProductImageFileName__c</members>
     <members>CTCPG__Product__c.ExternalID__c</members>
     <members>CTCPG__Product__c.Image_URL__c</members>
     <members>CTCPG__Product__c.Largeur_du_produit_en_cm__c</members>

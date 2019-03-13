@@ -80,4 +80,15 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
+	<fields>
+        <fullName>CORE_ProductImageFileName__c</fullName>
+        <externalId>false</externalId>
+        <formula>CTCPG__ProductId__r.CORE_ProductImageFileName__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product Image File Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
 </CustomObject>
