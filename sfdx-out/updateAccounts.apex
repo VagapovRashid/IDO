@@ -8,26 +8,24 @@ for(Account curAccount : accounts){
 update accounts;
 
 clm__TopLvlObjects__c newTop = clm__TopLvlObjects__c.getOrgDefaults();
-newTop.clm__ConflictManagerAttribute__c = 'false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false';
-newTop.clm__GroupFields__c = 'null,RecordTypeId,null,null,null,null,null,null,null,null,null';
+newTop.clm__ConflictManagerAttribute__c = 'false,false,false,false,false,false,false,false,false';
+newTop.clm__GroupFields__c = 'null,null,null,null,null,null,null';
 newTop.clm__MenuSettings__c = 'Home,Account,Contact,Calendar,CTCPG__Activity__c,Applications,Dashboards,Routes,NearbyAccounts,Chatter,Settings';
-newTop.clm__TopLvlObjects__c = '001,aDo,0KK,003,aCZ,aCd,aCa,aCg,aCf,aD0,00U,aDY,aDX,006,00k,00q,801,aDg,0Q0,a2d,07p,0D7,0D5,0I0';
+newTop.clm__TopLvlObjects__c = 'Account,Contact,Event,CTCPG__Activity__c,CTCPG__ActivityData__c,CTCPG__CalendarSettings__c,Matrix__c,MatrixLineItem__c,CTCPG__Product__c';
 newTop.clm__OnlineAttribute__c = 'false,false,false,false,false,false,false,,false,false,false';
 newTop.clm__SortOrder__c = 'null,ASC,,,,,,,,,null';
-if(newTop.Id == null){
-    insert newTop;
-}
+upsert newTop;
 
 clm__ApplicationSetup__c newApp = clm__ApplicationSetup__c.getOrgDefaults();
 newApp.clm__AccountFullAddressAPIField__c = 'FullAddress__c';
 newApp.clm__AccountGeolocationAPIField__c = 'Geolocation__c';
-newApp.clm__ActivityDescriptionAPI__c = 'CTCPG__Description__c,Description,Description';
-newApp.clm__ActivityEndDateAPI__c = 'CTCPG__EndDate__c,EndDateTime,ActivityDate';
-newApp.clm__ActivityGeolocationAPIField__c = 'Geolocation__c,Geolocation__c,Geolocation__c';
-newApp.clm__ActivityFieldAPI__c = 'CTCPG__ActivityId__c,EventId__c,TaskId__c';
-newApp.clm__ActivityObjectAPIName__c = 'CTCPG__Activity__c,Event,Task';
-newApp.clm__ActivityDateAPI__c = 'CTCPG__StartDate__c,StartDateTime,ActivityDate';
-newApp.clm__ActivityStatusAPI__c = 'CTCPG__Status__c,null,Status';
+newApp.clm__ActivityDescriptionAPI__c = 'CTCPG__Description__c';
+newApp.clm__ActivityEndDateAPI__c = 'CTCPG__EndDate__c';
+newApp.clm__ActivityGeolocationAPIField__c = 'Geolocation__c';
+newApp.clm__ActivityFieldAPI__c = 'CTCPG__ActivityId__c';
+newApp.clm__ActivityObjectAPIName__c = 'CTCPG__Activity__c';
+newApp.clm__ActivityDateAPI__c = 'CTCPG__StartDate__c';
+newApp.clm__ActivityStatusAPI__c = 'CTCPG__Status__c';
 newApp.clm__AllowWebSharing__c = false;
 newApp.clm__AppInstallURL__c = 'https://www.ctmobile.net/download/';
 newApp.clm__CalendarView__c = 'week';
@@ -52,6 +50,4 @@ newApp.clm__Theme__c = 'rgb(93,188,210)';
 newApp.clm__UpdateDateFields__c = false;
 newApp.clm__VisibleHourRange__c = '(8,22)';
 newApp.clm__WeekFormat__c = 'mo,mo,fr';
-if(newApp.Id == null){
-    insert newApp;
-}
+upsert newApp;
