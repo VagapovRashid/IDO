@@ -51,3 +51,125 @@ newApp.clm__UpdateDateFields__c = false;
 newApp.clm__VisibleHourRange__c = '(8,22)';
 newApp.clm__WeekFormat__c = 'mo,mo,fr';
 upsert newApp;
+
+
+List<clm__MobileLayoutSettings__c> settings = new List<clm__MobileLayoutSettings__c>();
+
+List<clm__MobileLayoutSettings__c> newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'New Timeoff'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[0].clm__Action__c = 'New';
+settings[0].clm__Fields__c = 'CTCPG__StartDate__c,CTCPG__EndDate__c,CTCPG__Description__c';
+settings[0].clm__RecordtypeDeveloperName__c = 'Timeoff';
+settings[0].clm__RequiredAttribute__c = 'true,false,false';
+settings[0].clm__SObject__c = 'CTCPG__Activity__c';
+settings[0].Name = 'New Timeoff';
+
+newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'New Joint Visit'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[1].clm__Action__c = 'New';
+settings[1].clm__Fields__c = 'CTCPG__StartDate__c,CTCPG__UserId__c,CTCPG__Description__c';
+settings[1].clm__RecordtypeDeveloperName__c = 'JointVisit';
+settings[1].clm__RequiredAttribute__c = 'true,false,false';
+settings[1].clm__SObject__c = 'CTCPG__Activity__c';
+settings[1].Name = 'New Joint Visit';
+
+newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'New Temporary Account'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[2].clm__Action__c = 'New';
+settings[2].clm__Fields__c = 'Name,Phone,Description';
+settings[2].clm__RecordtypeDeveloperName__c = 'Account_Temporary';
+settings[2].clm__RequiredAttribute__c = 'true,false,false';
+settings[2].clm__SObject__c = 'Account';
+settings[2].Name = 'New Temporary Account';
+
+newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'New Succession Account'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[3].clm__Action__c = 'New';
+settings[3].clm__Fields__c = 'Name,Phone,Description';
+settings[3].clm__RecordtypeDeveloperName__c = 'Account_Succession';
+settings[3].clm__RequiredAttribute__c = 'true,false,false';
+settings[3].clm__SObject__c = 'Account';
+settings[3].Name = 'New Succession Account';
+
+newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'New Assortment'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[4].clm__Action__c = 'New';
+settings[4].clm__Fields__c = 'AccountId__c';
+settings[4].clm__RecordtypeDeveloperName__c = 'Assortiment';
+settings[4].clm__RequiredAttribute__c = 'false';
+settings[4].clm__SObject__c = 'Assortiment__c';
+settings[4].Name = 'New Assortment';
+
+newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'New Task'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[5].clm__Action__c = 'New';
+settings[5].clm__Fields__c = 'ActivityDate,Subject,WhatId,Description';
+settings[5].clm__RecordtypeDeveloperName__c = 'Task';
+settings[5].clm__RequiredAttribute__c = 'true,true,false,false';
+settings[5].clm__SObject__c = 'Task';
+settings[5].Name = 'New Task';
+
+newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'New Visit'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[6].clm__Action__c = 'New';
+settings[6].clm__Fields__c = 'CTCPG__StartDate__c,CTCPG__AccountId__c,CTCPG__Objective__c,CTCPG__Description__c';
+settings[6].clm__RecordtypeDeveloperName__c = 'Visit';
+settings[6].clm__RequiredAttribute__c = 'true,false,false,false';
+settings[6].clm__SObject__c = 'CTCPG__Activity__c';
+settings[6].Name = 'New Visit';
+
+newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'Audit'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[7].clm__Action__c = 'New';
+settings[7].clm__Fields__c = 'CTCPG__AccountId__c,CTCPG__StartDate__c,CTCPG__EndDate__c';
+settings[7].clm__RecordtypeDeveloperName__c = 'DemoAudit';
+settings[7].clm__RequiredAttribute__c = 'true,false,false';
+settings[7].clm__SObject__c = 'CTCPG__Activity__c';
+settings[7].Name = 'Audit';
+
+newSettings = [SELECT Name FROM clm__MobileLayoutSettings__c WHERE Name = 'Event'];
+if(newSettings.size() == 0){
+	settings.add(new clm__MobileLayoutSettings__c());
+}else{
+	settings.add(newSettings[0]);
+}
+settings[8].clm__Action__c = 'New';
+settings[8].clm__Fields__c = 'CTCPG__AccountId__c,CTCPG__StartDate__c,CTCPG__EndDate__c';
+settings[8].clm__RecordtypeDeveloperName__c = 'Event';
+settings[8].clm__RequiredAttribute__c = 'true,false,false';
+settings[8].clm__SObject__c = 'CTCPG__Activity__c';
+settings[8].Name = 'Event';
+
+upsert settings;
