@@ -5,5 +5,5 @@
         <sharedTo>admin@rcgcttest1127.ido</sharedTo>
         <sharedToType>User</sharedToType>
     </folderShares>
-    <name>CT Reports</name>
+    <name>CLM Reports</name>
 </ReportFolder>
