@@ -22,21 +22,5 @@
         "files": [
             "MatrixLineItem__c.json"
         ]
-    },
-	{
-        "sobject": "clm__MobileCustomization__c",
-        "saveRefs": true,
-        "resolveRefs": false,
-        "files": [
-            "MobileCustomization__c.json"
-        ]
-    },
-	{
-        "sobject": "clm__MobileLayoutSettings__c",
-        "saveRefs": true,
-        "resolveRefs": false,
-        "files": [
-            "MobileLayoutSettings__c.json"
-        ]
     }
 ]
