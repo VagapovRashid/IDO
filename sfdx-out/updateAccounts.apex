@@ -173,3 +173,16 @@ settings[8].clm__SObject__c = 'CTCPG__Activity__c';
 settings[8].Name = 'Event';
 
 upsert settings;
+
+Document document = [SELECT Id, Name, Body FROM Document WHERE Name = 'CT Mobile Homepage Settings'];
+String orgId = UserInfo.getOrganizationId();
+String newBlob = '[{"size":{"x":4,"y":1},"position":[0,0],"widget":{"id":1,"name":"Logo","type":"logo"},"profile":{"id":"';
+newBlob += orgId;
+newBlob += '","profileName":"General Settings"},"$$hashKey":"6FD"},{"size":{"x":4,"y":1},"position":[1,0],"widget":{"id":3,"name":"Calendar Presentation (carousel)","type":"calendarPresentationCarousel"},"profile":{"id":"';
+newBlob += orgId;
+newBlob += '","profileName":"General Settings"},"$$hashKey":"6G8"},{"size":{"x":4,"y":1},"position":[2,0],"widget":{"id":2,"name":"Calendar Week (carousel)","type":"calendarWeekCarousel"},"profile":{"id":"';
+newBlob += orgId;
+newBlob += '","profileName":"General Settings"},"$$hashKey":"6KP"}]';
+document.Body = Blob.valueOf(newBlob);
+
+update document;
