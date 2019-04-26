@@ -176,6 +176,9 @@ upsert settings;
 
 List<Document> documents = [SELECT Id, Name, Body FROM Document WHERE Name = 'CT Mobile Homepage Settings'];
 Folder folder = [SELECT Id, Name FROM Folder WHERE Name = 'CT CLM'];
+Report statusReport = [SELECT Id, Name, FolderName FROM Report WHERE DeveloperName='ActivitiyByStatus'];
+Report typeReport = [SELECT Id, Name FROM Report WHERE DeveloperName='Activity_by_Type'];
+Folder reportFolder = [SELECT Id, Name FROM Folder WHERE Name = 'CT Reports'];
 if(documents.size() == 0){
     documents.add(new Document(Name = 'CT Mobile Homepage Settings', FolderId = folder.Id));
 }
@@ -184,9 +187,24 @@ String newBlob = '[{"size":{"x":4,"y":1},"position":[0,0],"widget":{"id":1,"name
 newBlob += orgId;
 newBlob += '","profileName":"General Settings"},"$$hashKey":"6FD"},{"size":{"x":4,"y":1},"position":[1,0],"widget":{"id":3,"name":"Calendar Presentation (carousel)","type":"calendarPresentationCarousel"},"profile":{"id":"';
 newBlob += orgId;
-newBlob += '","profileName":"General Settings"},"$$hashKey":"6G8"},{"size":{"x":4,"y":1},"position":[2,0],"widget":{"id":2,"name":"Calendar Week (carousel)","type":"calendarWeekCarousel"},"profile":{"id":"';
+newBlob += '","profileName":"General Settings"},"$$hashKey":"6G8"},'
+newBlob += '{"size":{"x":4,"y":1},"position":[2,0],"widget":{"id":2,"name":"Calendar Week (carousel)","type":"calendarWeekCarousel"},"profile":{"id":"';
 newBlob += orgId;
-newBlob += '","profileName":"General Settings"},"$$hashKey":"6KP"}]';
+newBlob += '","profileName":"General Settings"},"$$hashKey":"6KP"},';
+newBlob += '{"size":{"x":2,"y":2},"position":[3,0],"widget":{"id":"';
+newBlob += statusReport.Id;
+newBlob += '","name":"Activities by Status","type":"report","folderId":"';
+newBlob += reportFolder.Id;
+newBlob += '"},"profile":{"id":"';
+newBlob += orgId;
+newBlob += '","profileName":"General Settings"},"$$hashKey":"6DV"},';
+newBlob += '{"size":{"x":2,"y":2},"position":[3,2],"widget":{"id":"';
+newBlob += typeReport.Id;
+newBlob += '","name":"Activities by Type","type":"report","folderId":"';
+newBlob += reportFolder.Id;
+newBlob += '"},"profile":{"id":"';
+newBlob += orgId;
+newBlob += '","profileName":"General Settings"},"$$hashKey":"6IA"}]';
 documents[0].Body = Blob.valueOf(newBlob);
 documents[0].DeveloperName = 'CTMobileHomepageSettings_1223334444';
 
