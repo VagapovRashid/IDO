@@ -148,6 +148,12 @@
     <members>Matrix__c.All</members>
   </types>
   <types>
+        <members>CTReports</members>
+        <members>CTReports/ActivitiyByStatus</members>
+        <members>CTReports/Activity_by_Type</members>
+        <name>Report</name>
+    </types>
+  <types>
     <name>PermissionSet</name>
     <members>Ido_package</members>
   </types>
