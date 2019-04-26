@@ -188,5 +188,6 @@ newBlob += '","profileName":"General Settings"},"$$hashKey":"6G8"},{"size":{"x":
 newBlob += orgId;
 newBlob += '","profileName":"General Settings"},"$$hashKey":"6KP"}]';
 documents[0].Body = Blob.valueOf(newBlob);
+documents[0].DeveloperName = 'CTMobileHomepageSettings_1223334444';
 
 upsert documents;
