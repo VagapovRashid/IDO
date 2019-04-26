@@ -148,12 +148,6 @@
     <members>Matrix__c.All</members>
   </types>
   <types>
-        <members>CLM Reports</members>
-        <members>CLM Reports/ActivitiyByStatus</members>
-        <members>CLM Reports/Activity_by_Type</members>
-        <name>Report</name>
-    </types>
-  <types>
     <name>PermissionSet</name>
     <members>Ido_package</members>
   </types>
