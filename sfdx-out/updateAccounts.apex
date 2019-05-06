@@ -209,3 +209,29 @@ documents[0].Body = Blob.valueOf(newBlob);
 documents[0].DeveloperName = 'CTMobileHomepageSettings_1223334444';
 
 upsert documents;
+
+List<CTCPG__Activity__c> activities = new List<CTCPG__Activity__c>();
+
+List<String> statuses = new List<String>();
+statuses.add('Planned');
+statuses.add('In Progress');
+statuses.add('Finished');
+statuses.add('Canceled');
+
+List<Id> recordTypeIds = new List<Id>();
+recordTypeIds.add(Schema.SObjectType.CTCPG__Activity__c.getRecordTypeInfosByName().get('Audit').getRecordTypeId());
+recordTypeIds.add(Schema.SObjectType.CTCPG__Activity__c.getRecordTypeInfosByName().get('Event').getRecordTypeId());
+recordTypeIds.add(Schema.SObjectType.CTCPG__Activity__c.getRecordTypeInfosByName().get('Joint Visit').getRecordTypeId());
+recordTypeIds.add(Schema.SObjectType.CTCPG__Activity__c.getRecordTypeInfosByName().get('Visit').getRecordTypeId());
+recordTypeIds.add(Schema.SObjectType.CTCPG__Activity__c.getRecordTypeInfosByName().get('Timeoff').getRecordTypeId());
+
+for(Id recordTypeId : recordTypeIds){
+    for(String status : statuses){
+        CTCPG__Activity__c newActivity = new CTCPG__Activity__c();
+        newActivity.RecordTypeId = recordTypeId;
+        newActivity.CTCPG__Status__c = status;
+        activities.add(newActivity);
+    }
+}
+
+insert activities;
