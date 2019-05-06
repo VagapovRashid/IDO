@@ -46,6 +46,7 @@
     <members>Account.PDL_Audit_Category_3__c</members>
     <members>Account.PDL__c</members>
 	<members>CTCPG__ActivityData__c.CORE_ProductImageFileName__c</members>
+	<members>CTCPG__ActivityData__c.Image__c</members>
     <members>CTCPG__ActivityData__c.Facing__c</members>
     <members>CTCPG__ActivityData__c.Obligatory__c</members>
     <members>CTCPG__ActivityData__c.Quantity__c</members>

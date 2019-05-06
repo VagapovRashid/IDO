@@ -12,7 +12,7 @@
     </values>
     <values>
         <field>FieldsLayout__c</field>
-        <value xsi:type="xsd:string">CORE_ProductImageFileName__c,CTCPG__ProductId__c,Obligatory__c,IsPromo__c,CTCPG__Price__c,Facing__c,Promo__c</value>
+        <value xsi:type="xsd:string">Image__c,CTCPG__ProductId__c,Obligatory__c,IsPromo__c,CTCPG__Price__c,Facing__c,Promo__c</value>
     </values>
     <values>
         <field>LookupAPINameToParentObject__c</field>
