@@ -9,9 +9,7 @@
     <members>VisitDialogLayoutSettings.DemoAudit</members>
     <members>VisitDialogLayoutSettings.VisitDialogLayoutSettings</members>
     <members>VisitDialogSectionSettings.AuditDialogSectionSettings</members>
-	<members>VisitDialogSectionSettings.AuditDialogSectionSettings_2</members>
     <members>VisitDialogTabSettings.AuditDialogTabSettings</members>
-	<members>VisitDialogTabSettings.AuditDialogTabSettings_2</members>
     <members>clm__Workflow.AuditActivityUpdateAfterFinish</members>
     <members>clm__Workflow.Audit_ActivityUpdateAfterStart</members>
     <members>clm__WorkflowStep.CreateActivityData</members>

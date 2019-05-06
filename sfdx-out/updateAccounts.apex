@@ -185,7 +185,7 @@ if(documents.size() == 0){
 String orgId = UserInfo.getOrganizationId();
 String newBlob = '[{"size":{"x":4,"y":1},"position":[0,0],"widget":{"id":1,"name":"Logo","type":"logo"},"profile":{"id":"';
 newBlob += orgId;
-newBlob += '","profileName":"General Settings"},"$$hashKey":"6FD"},'
+newBlob += '","profileName":"General Settings"},"$$hashKey":"6FD"},';
 newBlob += '{"size":{"x":4,"y":1},"position":[2,0],"widget":{"id":2,"name":"Calendar Week (carousel)","type":"calendarWeekCarousel"},"profile":{"id":"';
 newBlob += orgId;
 newBlob += '","profileName":"General Settings"},"$$hashKey":"6KP"},';
