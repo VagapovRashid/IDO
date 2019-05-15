@@ -5,7 +5,18 @@
                 "type": "Matrix__c",
                 "referenceId": "Matrix__cRef1"
             },
-            "Active__c": true
+            "Name": "M-00002",
+            "Active__c": true,
+            "ExternalId__c": "3422"
+        },
+        {
+            "attributes": {
+                "type": "Matrix__c",
+                "referenceId": "Matrix__cRef2"
+            },
+            "Name": "M-00001",
+            "Active__c": true,
+            "ExternalId__c": "1234"
         }
     ]
 }

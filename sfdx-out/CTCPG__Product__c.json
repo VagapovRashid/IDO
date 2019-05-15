@@ -5,6 +5,309 @@
                 "type": "CTCPG__Product__c",
                 "referenceId": "CTCPG__Product__cRef1"
             },
+            "Name": "Test company product",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Brand__c": "First Brand",
+            "CTCPG__Family__c": "First Family",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef2"
+            },
+            "Name": "Test competitor product",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Brand__c": "Second Brand",
+            "CTCPG__Family__c": "Second Family",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef3"
+            },
+            "Name": "Test pos material",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Brand__c": "Third Brand",
+            "CTCPG__Family__c": "Third Family",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef4"
+            },
+            "Name": "Alpine Cooler",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Upright, Swing Open Refrigerated Alpine Beverage Cooler - Capacity of 60-75 beverages",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/CG/Cooler/Alpine+Cooler+Product+Image.jpeg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef5"
+            },
+            "Name": "Women's Alpine Tank",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "A breathable panel is strategically placed down the full length of the back to allow you to maintain a brisk pace on fast hikes without worrying that your pack will start sticking to your sweaty back. This lightweight tank's FlashDry technology enhanced T-strap works with your body to improve wicking and surface evaporation for a faster drying time. Constructed with seam-free shoulders and hip panels to reduce abrasion from pack straps. Flat-lock seams throughout the rest of the garment are low profile.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/shirts-sweaters/2244100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef6"
+            },
+            "Name": "Men's Alpine Project Hybrid Jacket",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Kick-start aerobic assaults on the mountain wearing this windproof soft-shell jacket designed for maximum mobility. Windproof GORE WINDSTOPPER SCUBA blocks bone-chilling wind during your ascent when worn as an outer layer, or as a lightweight mid-layer in harsher conditions. TNF Apex enhances overall stretch and mobility during fast-moving mountain adventures. Stretch woven side panels increase breathability while reducing bulk, allowing you to stay scrappy while traversing technical terrain. Zippered handwarmer pockets are designed to remain accessible while you're wearing a climbing harness or a pack.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/jackets/1027100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef7"
+            },
+            "Name": "Men's Alpine Project Soft Shell Jacket",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Free up your range of motion on the wall, or alpine climbing, while reaping the windproof and water-resistant benefits of GORE WINDSTOPPER woven nylon. This four-way-stretch soft shell jacket offers burly weather protection that remains lightweight and streamlined for weight-bearing pursuits. Zippered handwarmer pockets are designed to remain accessible while you're wearing a climbing harness or a pack. Pit-zips ventilate your core for improved moisture management during stages of intense aerobic activity. Welded, zippered chest pocket secures small essential items, like a pocketknife. Fully adjustable hood with laminated brim is helmet compatible for extra coverage. Cuffs adjust with non-abrasive molded tabs.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/jackets/1043100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef8"
+            },
+            "Name": "Men's Alpine Hybrid Full Zip",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Be prepared for the trail, and save space in your pack, when you carry this highly compressible, fleece mid-layer. Breathable FlashDry panels are strategically placed under the arms and down the sides of this woven jacquard fleece jacket for improved wicking and surface evaporation. Constructed with raglan shoulder seams, and gussets under arms and at sides for improved mobility while wearing a backpack. Laser-cut panels at sides are hipbelt compatible to keep supportive straps from digging into your waist. Flat-locked stitching throughout reduces abrasion for next-to-skin comfort during a long day of hiking. Reverse coil full-length front zipper is low profile.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/shirts-sweaters/1209100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef9"
+            },
+            "Name": "Men's Alpine Project Jacket",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Suited for swift, technical ascents where weight is critical, this new ultra-lightweight hard shell provides extreme breathability with waterproof, windproof protection.  New GORE-TEX Active Shell fabric provides a 30% lighter (and thinner) GORE-TEX membrane than ever before for a streamlined three-layer construction.  Laminated with the backer directly into the GORE-TEX membrane, this hard shell provides extreme breathability and excellent next to skin comfort.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/jackets/1026100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef10"
+            },
+            "Name": "Men's Alpine Pants",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Maintain a brisk pace on the trail while enjoying the full coverage of a durable pant that won't limit your freedom of movement. Lightweight woven nylon is blended with elastane to achieve a four-way stretch that moves with your body. This breathable pant is also wind- and water-resistant with a DWR (durable water repellant) finish for additional protection from light rain showers when you're exposed to the elements on the trail. Infused zipper hand pockets and a rear zip pocket secure smaller items, like a compass, for quick access. Crafted with a crotch gusset and a streamlined, active fit that features a slimmer cut through the leg and a classic opening at the cuff to cover the top of hiking boots.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/pants-shorts/1403100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef11"
+            },
+            "Name": "Women's Alpine Project Soft Shell Jacket",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Free up your range of motion on the wall, or alpine climbing, while reaping the windproof and water-resistant benefits of GORE WINDSTOPPER woven nylon. This four-way stretch soft-shell jacket offers burly weather protection that remains lightweight and streamlined for weight-bearing pursuits. Zippered handwarmer pockets are designed to remain accessible while you're wearing a climbing harness or a pack. Pit-zips ventilate your core for improved moisture management during stages of intense aerobic activity. Welded, zippered chest pocket secures small essential items, like a pocketknife. Fully adjustable hood with laminated brim is helmet compatible for extra coverage.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/jackets/2059100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef12"
+            },
+            "Name": "Alpine Nutrition - Cereal Display",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Upright & Free Standing Alpine Blends branded Cereal Display - Capacity of 24 boxes",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/CG/Other/cerealdisplay.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef13"
+            },
+            "Name": "Alpine Vending Machine - 10 Shelves",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Upright Vending Machine - 4 rows for beverage and 6 rows for nutrition products",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/CG/Cooler/Alpine+Vending+10.png",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef14"
+            },
+            "Name": "Women's Alpine Project Hybrid Jacket",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Kick-start aerobic assaults on the mountain wearing this windproof soft shell jacket designed for maximum mobility. Windproof GORE WINDSTOPPER SCUBA blocks bone-chilling wind during your ascent when worn as an outer layer, or as a lightweight mid-layer in harsher conditions. TNF Apex enhances overall stretch and mobility during fast-moving mountain adventures. Stretch woven side panels increase breathability while reducing bulk, allowing you to stay scrappy while traversing technical terrain. Zippered handwarmer pockets are designed to remain accessible while you're wearing a climbing harness or a pack.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/jackets/2061100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef15"
+            },
+            "Name": "Alpine Vending Machine - 8 Shelves",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Upright Vending Machine - 4 rows for beverage and 4 rows for nutrition products",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/CG/Cooler/AlpineVending8.png",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef16"
+            },
+            "Name": "Women's Alpine Crew",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Fast and light hikes call for breathable baselayers constructed with superior moisture-management technology. Geometric FlashDry mesh is strategically placed to wick moisture and speed evaporative drying across the back and the underarms, the areas where women sweat the most. These extra-breathable zones prevent you from heating up during periods of intense aerobic activity and getting the chills when you slow your pace on the trail. Constructed with seam-free raglan shoulders and hip panels to reduce chafing potential while wearing your pack for hours. UPF 30 protects your skin from the sun when hiking with little overhead coverage on warm spring days.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/shirts-sweaters/2242100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef17"
+            },
+            "Name": "Women's Alpine Project Jacket",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Suited for swift, technical ascents where weight is critical, this new ultra-lightweight hard shell provides extreme breathability with waterproof, windproof protection.  New GORE-TEX Active Shell fabric provides a 30% lighter (and thinner) GORE-TEX membrane than ever before for a streamlined three-layer construction.  Laminated with the backer directly into the GORE-TEX membrane, this hard shell provides extreme breathability and excellent next to skin comfort.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/jackets/2029100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef18"
+            },
+            "Name": "Men's Alpine Project Hybrid Hoodie",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Head out of bounds wearing a versatile, stretch soft-shell hooded jacket that can be worn as a windproof outer layer on cool spring days, or a lightweight mid-layer in harsher conditions. Windproof GORE WINDSTOPPER SCUBA blocks bone-chilling wind during your ascent. Constructed with TNF Apex for enhanced stretch and mobility during fast-moving mountain adventures. Stretch woven side panels increase breathability while reducing bulk, allowing you to stay scrappy while traversing technical terrain. Zippered handwarmer pockets are designed to remain accessible while you're wearing a climbing harness or a pack. Fully adjustable hood with laminated brim is helmet compatible for extra coverage.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/jackets/1044100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef19"
+            },
+            "Name": "Alpine Promotional Product - Patio Set",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Alpine Promotional Product - Patio Set - Consists of Alpine branded round table and four chairs",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/CG/Other/patiodisplay.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef20"
+            },
+            "Name": "Men's Alpine Shorts",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Wear this breathable, four-way stretch nylon hiking short with a 10 inseam to drop crucial weight and stay streamlined on the trail. This wind- and water- resistant hiking short is treated with a DWR (durable water repellant) finish to prevent rain from soaking through the fabric before you can take cover. Rear pocket has an infused zipper to securely stash small items, like a flat compass, for easy access. Crafted with a crotch gusset and an active fit that features a slimmer cut through the thigh. Relaxed waist fastens with a snap closure.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/pants-shorts/1414100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef21"
+            },
+            "Name": "Women's Alpine Project Hybrid Hoodie",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Head out of bounds wearing a versatile, stretch soft-shell hooded jacket that can be worn as a windproof outer layer on cool spring days, or a lightweight mid-layer in harsher conditions. Windproof GORE WINDSTOPPER SCUBA blocks bone-chilling wind during your ascent. Constructed with TNF Apex for enhanced stretch and mobility during fast-moving mountain adventures. Stretch woven side panels increase breathability while reducing bulk, allowing you to stay scrappy while traversing technical terrain. Zippered handwarmer pockets are designed to remain accessible while you're wearing a climbing harness or a pack. Fully adjustable hood with laminated brim is helmet compatible for extra coverage.",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/Retail/jackets/2060100.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef22"
+            },
+            "Name": "Alpine Promotional Product - Umbrella",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Description__c": "Alpine Promotional Product - Umbrella for Patio Set - Consists of Alpine branded Outdoor umbrella - Color:Black",
+            "CTCPG__Family__c": "First Family",
+            "Image_URL__c": "https://s3.amazonaws.com/sfdc-ckz-b2b/RCG/CG/Other/umbrelladisplay.jpg",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 10
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef23"
+            },
+            "Name": "Lowfat Yogurt Vanilla",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Dairy",
@@ -13,14 +316,14 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Lowfat%20Yogurt%20Vanilla.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Lowfat Yogurt Vanilla",
             "Largeur_du_produit_en_cm__c": 9
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef2"
+                "referenceId": "CTCPG__Product__cRef24"
             },
+            "Name": "Chocolate Chip",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -29,15 +332,15 @@
             "Image_URL__c": "https://heyguys.ru/image/product/chocolate%20chip.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Chocolate Chip",
-            "Rayon__c": "Audit_category_3",
-            "Largeur_du_produit_en_cm__c": 10
+            "Largeur_du_produit_en_cm__c": 10,
+            "Rayon__c": "Audit_category_3"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef3"
+                "referenceId": "CTCPG__Product__cRef25"
             },
+            "Name": "Shredded Cheddar Cheese",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -46,15 +349,15 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Shredded%20Cheddar%20Cheese.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Shredded Cheddar Cheese",
             "Largeur_du_produit_en_cm__c": 12,
             "CTCPG__Type__c": "Type 2"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef4"
+                "referenceId": "CTCPG__Product__cRef26"
             },
+            "Name": "Caramel Coffee Creamer",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Dairy",
@@ -63,15 +366,15 @@
             "Image_URL__c": "https://heyguys.ru/image/product/servlet.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Caramel Coffee Creamer",
-            "Rayon__c": "Audit_category_1",
-            "Largeur_du_produit_en_cm__c": 9
+            "Largeur_du_produit_en_cm__c": 9,
+            "Rayon__c": "Audit_category_1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef5"
+                "referenceId": "CTCPG__Product__cRef27"
             },
+            "Name": "Peach Probiotic Yogurt",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Dairy",
@@ -80,16 +383,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/ACTIVIA%20PEACH%20PROBIOTIC%20YOGURT.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Peach Probiotic Yogurt",
-            "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 18,
+            "Rayon__c": "Audit_category_2",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef6"
+                "referenceId": "CTCPG__Product__cRef28"
             },
+            "Name": "Vanila Coffee Creamer",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -98,15 +401,15 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Vanila%20Coffee%20Creamer.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Vanila Coffee Creamer",
-            "Rayon__c": "Audit_category_1",
-            "Largeur_du_produit_en_cm__c": 10
+            "Largeur_du_produit_en_cm__c": 10,
+            "Rayon__c": "Audit_category_1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef7"
+                "referenceId": "CTCPG__Product__cRef29"
             },
+            "Name": "Strawberry Banana Probiotic Drink",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Dairy",
@@ -115,16 +418,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/ACTIVIA%20STRAWBERRY%20BANANA%20PROBIOTIC%20DRINK.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Strawberry Banana Probiotic Drink",
-            "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 7,
+            "Rayon__c": "Audit_category_1",
             "CTCPG__Type__c": "Type 3"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef8"
+                "referenceId": "CTCPG__Product__cRef30"
             },
+            "Name": "Blueberry Lowfat Yogurt",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Dairy",
@@ -133,16 +436,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/BLUEBERRY%20GREEK%20LOWFAT%20YOGURT.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Blueberry Lowfat Yogurt",
-            "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 10,
+            "Rayon__c": "Audit_category_2",
             "CTCPG__Type__c": "Type 2"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef9"
+                "referenceId": "CTCPG__Product__cRef31"
             },
+            "Name": "Black Cold-Brew Coffee",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Third Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -150,16 +453,16 @@
             "Image_URL__c": "https://www.stokbrew.com/wp-content/uploads/2018/07/stok-mocha-cold-brew-coffee-13.7oz.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Black Cold-Brew Coffee",
-            "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 9,
+            "Rayon__c": "Audit_category_1",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef10"
+                "referenceId": "CTCPG__Product__cRef32"
             },
+            "Name": "Frozen Organic Mango",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Third Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -168,16 +471,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/FROZEN%20ORGANIC%20MANGO.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Frozen Organic Mango",
-            "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 20,
+            "Rayon__c": "Audit_category_3",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef11"
+                "referenceId": "CTCPG__Product__cRef33"
             },
+            "Name": "Spreadable Butter",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Third Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -186,16 +489,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Spreadable%20Butter.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Spreadable Butter",
-            "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 14,
+            "Rayon__c": "Audit_category_3",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef12"
+                "referenceId": "CTCPG__Product__cRef34"
             },
+            "Name": "Strawberry Lowfat Yogur",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Dairy",
@@ -204,33 +507,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/STRAWBERRY%20GREEK%20LOWFAT%20YOGUR.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Strawberry Lowfat Yogur",
-            "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 10,
+            "Rayon__c": "Audit_category_2",
             "CTCPG__Type__c": "Type 2"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef13"
+                "referenceId": "CTCPG__Product__cRef35"
             },
-            "CTCPG__IsActive__c": true,
-            "CTCPG__Brand__c": "Second Brand",
-            "CTCPG__Category__c": "Nutrition",
-            "CTCPG__Family__c": "Third Family",
-            "Image_URL__c": "https://heyguys.ru/image/product/VEGA%20ONE%20ORGANIC%20ALL-IN-ONE%20SHAKE.png",
-            "PriceAudit__c": false,
-            "CTCPG__PriceAudit__c": false,
-            "Name": "One Organic all-in-one Shake",
-            "Rayon__c": "Audit_category_3",
-            "Largeur_du_produit_en_cm__c": 21,
-            "CTCPG__Type__c": "Type 1"
-        },
-        {
-            "attributes": {
-                "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef14"
-            },
+            "Name": "Decaf Black Tea",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -239,16 +525,16 @@
             "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/global/pack_shot/41000002717-1470091-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Decaf Black Tea",
-            "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 9,
+            "Rayon__c": "Audit_category_1",
             "CTCPG__Type__c": "Type 2"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef15"
+                "referenceId": "CTCPG__Product__cRef36"
             },
+            "Name": "Lowfat Chocolate Milk",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Dairy",
@@ -257,16 +543,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Lowfat%20Chocolate%20Milk%20with%20DHA%20Omega-3.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Lowfat Chocolate Milk",
-            "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 10,
+            "Rayon__c": "Audit_category_1",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef16"
+                "referenceId": "CTCPG__Product__cRef37"
             },
+            "Name": "Sport Protein Bar",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -275,16 +561,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/VEGA%20SPORT%20PROTEIN%20BAR.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Sport Protein Bar",
-            "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 4,
+            "Rayon__c": "Audit_category_3",
             "CTCPG__Type__c": "Type 3"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef17"
+                "referenceId": "CTCPG__Product__cRef38"
             },
+            "Name": "Strawberry Watermelon Iced Herbal Tea",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Dairy",
@@ -293,16 +579,16 @@
             "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/global/pack_shot/041000004384-1019224-1464063-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Strawberry Watermelon Iced Herbal Tea",
-            "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 18,
+            "Rayon__c": "Audit_category_2",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef18"
+                "referenceId": "CTCPG__Product__cRef39"
             },
+            "Name": "Lemon Ginseng Green Tea",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Dairy",
@@ -311,16 +597,16 @@
             "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/united_states_of_america/pack_shot/041000100291-1257996-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Lemon Ginseng Green Tea",
-            "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 7,
+            "Rayon__c": "Audit_category_1",
             "CTCPG__Type__c": "Type 3"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef19"
+                "referenceId": "CTCPG__Product__cRef40"
             },
+            "Name": "Peach Paradise Green Tea",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -329,15 +615,15 @@
             "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/united_states_of_america/pack_shot/041000072390-1258770-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Peach Paradise Green Tea",
-            "Rayon__c": "Audit_category_1",
-            "Largeur_du_produit_en_cm__c": 9
+            "Largeur_du_produit_en_cm__c": 9,
+            "Rayon__c": "Audit_category_1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef20"
+                "referenceId": "CTCPG__Product__cRef41"
             },
+            "Name": "Coconut Chocolate Bliss",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Third Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -346,15 +632,15 @@
             "Image_URL__c": "https://heyguys.ru/image/product/COCONUT%20CHOCOLATE%20BLISS%20NONFAT%20GREEK%20YOGURT%20CRUNCH.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Coconut Chocolate Bliss",
-            "Rayon__c": "Audit_category_2",
-            "Largeur_du_produit_en_cm__c": 10
+            "Largeur_du_produit_en_cm__c": 10,
+            "Rayon__c": "Audit_category_2"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef21"
+                "referenceId": "CTCPG__Product__cRef42"
             },
+            "Name": "Fresh Organic Navel Oranges",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -363,15 +649,15 @@
             "Image_URL__c": "https://heyguys.ru/image/product/NavelOrganges.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Fresh Organic Navel Oranges",
-            "Rayon__c": "Audit_category_3",
-            "Largeur_du_produit_en_cm__c": 23
+            "Largeur_du_produit_en_cm__c": 23,
+            "Rayon__c": "Audit_category_3"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef22"
+                "referenceId": "CTCPG__Product__cRef43"
             },
+            "Name": "Frozen Organic Blackberries",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -380,16 +666,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Blackberries-1.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Frozen Organic Blackberries",
-            "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 20,
+            "Rayon__c": "Audit_category_3",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef23"
+                "referenceId": "CTCPG__Product__cRef44"
             },
+            "Name": "Organic Dried Mangos",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Third Brand",
             "CTCPG__Category__c": "Nutrition",
@@ -398,16 +684,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/ORGANIC%20DRIED%20MANGOS.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Organic Dried Mangos",
-            "Rayon__c": "Audit_category_3",
             "Largeur_du_produit_en_cm__c": 20,
+            "Rayon__c": "Audit_category_3",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef24"
+                "referenceId": "CTCPG__Product__cRef45"
             },
+            "Name": "Pure Green Tea",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Dairy",
@@ -416,16 +702,16 @@
             "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/united_states_of_america/pack_shot/041000077203-1224798-png-1458901-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Pure Green Tea",
-            "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 18,
+            "Rayon__c": "Audit_category_2",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef25"
+                "referenceId": "CTCPG__Product__cRef46"
             },
+            "Name": "Iced Tea Unsweetened",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Dairy",
@@ -433,16 +719,33 @@
             "Image_URL__c": "https://asset-americas.unileversolutions.com/content/dam/unilever/lipton_international/united_states_of_america/pack_shot/41000377242-1458911-jpg.jpg.ulenscale.490x490.jpg",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Iced Tea Unsweetened",
-            "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 26,
+            "Rayon__c": "Audit_category_1",
             "CTCPG__Type__c": "Type 2"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef26"
+                "referenceId": "CTCPG__Product__cRef47"
             },
+            "Name": "One Organic all-in-one Shake",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__Brand__c": "Second Brand",
+            "CTCPG__Category__c": "Nutrition",
+            "CTCPG__Family__c": "Third Family",
+            "Image_URL__c": "https://heyguys.ru/image/product/VEGA%20ONE%20ORGANIC%20ALL-IN-ONE%20SHAKE.png",
+            "PriceAudit__c": false,
+            "CTCPG__PriceAudit__c": false,
+            "Largeur_du_produit_en_cm__c": 21,
+            "Rayon__c": "Audit_category_3",
+            "CTCPG__Type__c": "Type 1"
+        },
+        {
+            "attributes": {
+                "type": "CTCPG__Product__c",
+                "referenceId": "CTCPG__Product__cRef48"
+            },
+            "Name": "Plain Whole Milk",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "First Brand",
             "CTCPG__Category__c": "Dairy",
@@ -451,16 +754,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Plain%20Whole%20Milk.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Plain Whole Milk",
-            "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 11,
+            "Rayon__c": "Audit_category_2",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef27"
+                "referenceId": "CTCPG__Product__cRef49"
             },
+            "Name": "Mixed Berry Yogurt",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Dairy",
@@ -469,16 +772,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Mixed%20Berry%20Yogurt.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Mixed Berry Yogurt",
-            "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 9,
+            "Rayon__c": "Audit_category_2",
             "CTCPG__Type__c": "Type 2"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef28"
+                "referenceId": "CTCPG__Product__cRef50"
             },
+            "Name": "Mango Probiotic Yogurt",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Dairy",
@@ -487,16 +790,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/ACTIVIA%20MANGO%20PROBIOTIC%20YOGURT.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Mango Probiotic Yogurt",
-            "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 18,
+            "Rayon__c": "Audit_category_2",
             "CTCPG__Type__c": "Type 1"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef29"
+                "referenceId": "CTCPG__Product__cRef51"
             },
+            "Name": "Lowfat Yogurt Plain",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Third Brand",
             "CTCPG__Category__c": "Dairy",
@@ -505,16 +808,16 @@
             "Image_URL__c": "https://heyguys.ru/image/product/lowfat%20plain.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Lowfat Yogurt Plain",
-            "Rayon__c": "Audit_category_2",
             "Largeur_du_produit_en_cm__c": 9,
+            "Rayon__c": "Audit_category_2",
             "CTCPG__Type__c": "Type 2"
         },
         {
             "attributes": {
                 "type": "CTCPG__Product__c",
-                "referenceId": "CTCPG__Product__cRef30"
+                "referenceId": "CTCPG__Product__cRef52"
             },
+            "Name": "Strawberry/Blueberry Probiotic Drink 8 pack",
             "CTCPG__IsActive__c": true,
             "CTCPG__Brand__c": "Second Brand",
             "CTCPG__Category__c": "Dairy",
@@ -523,9 +826,8 @@
             "Image_URL__c": "https://heyguys.ru/image/product/Activia%20Dailies%20Strawberry%20Blueberry%20Probiotic%20Drink%208%20pack.png",
             "PriceAudit__c": false,
             "CTCPG__PriceAudit__c": false,
-            "Name": "Strawberry/Blueberry Probiotic Drink 8 pack",
-            "Rayon__c": "Audit_category_1",
             "Largeur_du_produit_en_cm__c": 26,
+            "Rayon__c": "Audit_category_1",
             "CTCPG__Type__c": "Type 2"
         }
     ]
