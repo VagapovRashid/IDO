@@ -60,10 +60,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ApproveContract</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ArchiveArticles</name>
     </userPermissions>
     <userPermissions>
