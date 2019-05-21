@@ -149,7 +149,6 @@
   <types>
     <name>PermissionSet</name>
     <members>Ido_package</members>
-    <members>CT_Mobile</members>
   </types>
   <types>
 	<members>CTReports</members>
