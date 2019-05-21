@@ -149,16 +149,13 @@
   <types>
     <name>PermissionSet</name>
     <members>Ido_package</members>
+    <members>CT_Mobile</members>
   </types>
   <types>
 	<members>CTReports</members>
 	<members>CTReports/ActivitiyByStatus</members>
 	<members>CTReports/Activity_by_Type</members>
 	<name>Report</name>
-  </types>
-  <types>
-  	<members>System Admin CT App</members>
-  	<name>Profile</name>
   </types>
   <version>44.0</version>
 </Package>
