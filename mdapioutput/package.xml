@@ -40,6 +40,7 @@
     <members>Account.DN_Audit_Category_2__c</members>
     <members>Account.DN_Audit_Category_3__c</members>
     <members>Account.DN__c</members>
+	<members>Account.Last_Year_Revenue_Generated__c</members>
     <members>Account.MatrixId__c</members>
     <members>Account.PDL_Audit_Category_1__c</members>
     <members>Account.PDL_Audit_Category_2__c</members>
