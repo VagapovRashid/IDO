@@ -202,28 +202,6 @@
         <relatedList>CTCPG__Activity__c.CTCPG__ContactId__c</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>OPPORTUNITY.NAME</fields>
-        <fields>OPPORTUNITY.STAGE_NAME</fields>
-        <fields>IndStatus__c</fields>
-        <fields>OPPORTUNITY.AMOUNT</fields>
-        <fields>OPPORTUNITY.CLOSE_DATE</fields>
-        <relatedList>RelatedOpportunityList</relatedList>
-        <sortField>OPPORTUNITY.CLOSE_DATE</sortField>
-        <sortOrder>Desc</sortOrder>
-    </relatedLists>
-    <relatedLists>
-        <fields>CASES.CASE_NUMBER</fields>
-        <fields>CASES.SUBJECT</fields>
-        <fields>Channel__c</fields>
-        <fields>CASES.PRIORITY</fields>
-        <fields>CASES.STATUS</fields>
-        <fields>Status_Indicator__c</fields>
-        <fields>CASES.CREATED_DATE</fields>
-        <relatedList>RelatedCaseList</relatedList>
-        <sortField>CASES.CREATED_DATE</sortField>
-        <sortOrder>Desc</sortOrder>
-    </relatedLists>
-    <relatedLists>
         <relatedList>RelatedContentNoteList</relatedList>
     </relatedLists>
     <relatedLists>
