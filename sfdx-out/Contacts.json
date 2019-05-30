@@ -1,0 +1,58 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef1"
+            },
+            "Name": "Ron Abelin",
+            "Title": "Store Operations Manager",
+            "Email": "ronabelin@example.com",
+            "Phone": "(415) 555-1212",
+            "MobilePhone": "415-555-1212",
+            "MailingAddress": {
+                "city": "San Francisco",
+                "country": "United States",
+                "geocodeAccuracy": "Zip",
+                "latitude": 37.7975,
+                "longitude": -122.3996,
+                "postalCode": "94111",
+                "state": "CA",
+                "street": "One Ferry Building, #045"
+            },
+            "MailingStreet": "One Ferry Building, #045",
+            "MailingCity": "San Francisco",
+            "MailingPostalCode": "94111",
+            "MailingState": "CA",
+            "MailingCountry": "United States",
+            "AccountId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "ContactRef2"
+            },
+            "Name": "David Adelson",
+            "Title": "Director, Information Technology",
+            "Email": "dadelson@example.com",
+            "Phone": "(650) 555-4645",
+            "MobilePhone": "+1.639.762.7543",
+            "MailingAddress": {
+                "city": "San Francisco",
+                "country": "USA",
+                "geocodeAccuracy": "Block",
+                "latitude": 37.789036,
+                "longitude": -122.411257,
+                "postalCode": "94102",
+                "state": "CA",
+                "street": "660 Sutter St"
+            },
+            "MailingStreet": "660 Sutter St",
+            "MailingCity": "San Francisco",
+            "MailingPostalCode": "94102",
+            "MailingState": "CA",
+            "MailingCountry": "USA",
+            "AccountId": "@AccountRef1"
+        }
+    ]
+}

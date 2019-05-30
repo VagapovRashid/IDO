@@ -101,4 +101,37 @@
         <trackHistory>false</trackHistory>
         <type>Percent</type>
     </fields>
+	<fields>
+        <fullName>RevenueForecast__c</fullName>
+        <externalId>false</externalId>
+        <label>Revenue Forecast</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>SalesPlan__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Plan</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+	<fields>
+        <fullName>ShippingGeo__c</fullName>
+        <displayLocationInDecimal>true</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <label>ShippingGeo</label>
+        <required>false</required>
+        <scale>6</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Location</type>
+    </fields>
 </CustomObject>

@@ -1,0 +1,16 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CTCPG__MarketingCycle__c",
+                "referenceId": "CTCPG__MarketingCycle__cRef1"
+            },
+            "Name": "Marketing Cycle №1",
+            "CTCPG__IsActive__c": true,
+            "CTCPG__EndDate__c": "2019-07-01",
+            "CTCPG__LinkVisit__c": false,
+            "CTCPG__StartDate__c": "2019-04-01",
+            "CTCPG__Status__c": "Planned"
+        }
+    ]
+}

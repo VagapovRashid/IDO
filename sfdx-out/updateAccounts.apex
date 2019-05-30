@@ -18,7 +18,7 @@ upsert newTop;
 
 clm__ApplicationSetup__c newApp = clm__ApplicationSetup__c.getOrgDefaults();
 newApp.clm__AccountFullAddressAPIField__c = 'FullAddress__c';
-newApp.clm__AccountGeolocationAPIField__c = 'Geolocation__c';
+newApp.clm__AccountGeolocationAPIField__c = 'ShippingGeo__c';
 newApp.clm__ActivityDescriptionAPI__c = 'CTCPG__Description__c';
 newApp.clm__ActivityEndDateAPI__c = 'CTCPG__EndDate__c';
 newApp.clm__ActivityGeolocationAPIField__c = 'Geolocation__c';

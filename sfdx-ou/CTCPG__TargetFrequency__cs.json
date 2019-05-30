@@ -1,0 +1,16 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CTCPG__TargetFrequency__c",
+                "referenceId": "CTCPG__TargetFrequency__cRef1"
+            },
+            "CTCPG__IsActive__c": true,
+            "CTCPG__ActualCalls__c": 0,
+            "CTCPG__PlannedCalls__c": 15,
+            "CTCPG__MarketingDetailTrackingId__c": "@CTCPG__MarketingDetailTracking__cRef1",
+            "CTCPG__AccountId__c": "@AccountRef1",
+            "CTCPG__MarketingCycleId__c": "@CTCPG__MarketingCycle__cRef1"
+        }
+    ]
+}
