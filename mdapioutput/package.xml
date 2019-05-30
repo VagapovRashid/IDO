@@ -19,11 +19,9 @@
   </types>
   <types>
     <name>Layout</name>
-	<members>Account-Mobile Account Layout</members>
     <members>CTCPG__Activity__c-Audit Activity Layout</members>
     <members>CTCPG__Activity__c-Mobile Activity Layout</members>
     <members>CTCPG__Activity__c-Mobile Demo Audit Layout</members>
-	<members>Contact-Mobile Contact Layout</members>
     <members>MatrixLineItem__c-Matrix Line Item Layout</members>
     <members>MatrixLineItem__c-Mobile Matrix Line Item Layout</members>
     <members>Matrix__c-Matrix Layout</members>
