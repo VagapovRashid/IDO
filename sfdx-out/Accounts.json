@@ -15,7 +15,6 @@
             "CTCPG__DivisionAlphaCategory__c": "Discounter",
             "CTCPG__DivisionAlphaTargetCheck__c": true,
             "AnnualRevenue": 400000,
-            "RevenueForecast__c": 300000,
             "SalesPlan__c": 100000,
             "BillingAddress": {
                 "city": "Austin",
