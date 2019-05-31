@@ -287,11 +287,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CTCPG__MarketingDetailTracking__c.CTCPG__MarketingCycleId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>CTCPG__Product__c.Brand__c</field>
         <readable>true</readable>
     </fieldPermissions>
