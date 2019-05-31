@@ -287,7 +287,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CTCPG__MarketingDetailTracking__c.CTCPG__MarketingCycle__c</field>
+        <field>CTCPG__MarketingDetailTracking__c.CTCPG__MarketingCycleId__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
