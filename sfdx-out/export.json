@@ -24,22 +24,6 @@
         ]
     },
     {
-        "sobject": "Account",
-        "saveRefs": true,
-        "resolveRefs": true,
-        "files": [
-            "Accounts.json"
-        ]
-    },
-    {
-        "sobject": "Contact",
-        "saveRefs": true,
-        "resolveRefs": true,
-        "files": [
-            "Contacts.json"
-        ]
-    },
-    {
         "sobject": "CTCPG__MarketingCycle__c",
         "saveRefs": true,
         "resolveRefs": true,
@@ -53,14 +37,6 @@
         "resolveRefs": true,
         "files": [
             "CTCPG__MarketingDetailTracking__cs.json"
-        ]
-    },
-    {
-        "sobject": "CTCPG__TargetFrequency__c",
-        "saveRefs": true,
-        "resolveRefs": true,
-        "files": [
-            "CTCPG__TargetFrequency__cs.json"
         ]
     }
 ]
