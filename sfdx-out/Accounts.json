@@ -14,12 +14,7 @@
             "NumberOfEmployees": 240,
             "CTCPG__DivisionAlphaCategory__c": "Discounter",
             "CTCPG__DivisionAlphaTargetCheck__c": true,
-            "AnnualRevenue": 400000,
-            "BillingCountry": "USA",
-            "BillingStreet": "Bouldin",
-            "BillingState": "TX",
-            "BillingPostalCode": "78704",
-            "BillingCity": "Austin",
+            "AnnualRevenue": 400000
         },
         {
             "attributes": {
@@ -34,12 +29,7 @@
             "NumberOfEmployees": 1899,
             "CTCPG__DivisionAlphaCategory__c": "Discounter",
             "CTCPG__DivisionAlphaTargetCheck__c": false,
-            "AnnualRevenue": 1000000,
-            "BillingCountry": "USA",
-            "BillingStreet": "230 Vesey St",
-            "BillingState": "NY",
-            "BillingPostalCode": "10281",
-            "BillingCity": "New York",
+            "AnnualRevenue": 1000000
         },
         {
             "attributes": {
@@ -48,12 +38,7 @@
             },
             "Name": "*Alpine Nutrition - Noe Valley",
             "Type": "Outlet Store",
-            "CTCPG__DivisionAlphaTargetCheck__c": false,
-            "BillingCountry": "USA",
-            "BillingStreet": "4237 25th St",
-            "BillingState": "CA",
-            "BillingPostalCode": "94114",
-            "BillingCity": "San Francisco",
+            "CTCPG__DivisionAlphaTargetCheck__c": false
         }
     ]
 }
