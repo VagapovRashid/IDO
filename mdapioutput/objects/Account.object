@@ -101,4 +101,15 @@
         <trackHistory>false</trackHistory>
         <type>Percent</type>
     </fields>
+    <fields>
+        <fullName>ShippingGeo__c</fullName>
+        <displayLocationInDecimal>true</displayLocationInDecimal>
+        <externalId>false</externalId>
+        <label>ShippingGeo</label>
+        <required>false</required>
+        <scale>6</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Location</type>
+    </fields>
 </CustomObject>
