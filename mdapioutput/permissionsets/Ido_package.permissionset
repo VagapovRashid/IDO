@@ -52,6 +52,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.ShippingGeo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>CTCPG__ActivityData__c.Facing__c</field>
         <readable>true</readable>
     </fieldPermissions>
