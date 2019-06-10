@@ -10,7 +10,7 @@
             "CTCPG__PlannedCalls__c": 15,
             "CTCPG__SortOrder__c": 0,
             "CTCPG__Type__c": "Account",
-            "CTCPG__MarketingCycleId__c": "CTCPG__MarketingCycle__cRef1"
+            "CTCPG__MarketingCycleId__c": "@CTCPG__MarketingCycle__cRef1"
         }
     ]
 }
