@@ -11,7 +11,7 @@ clm__TopLvlObjects__c newTop = clm__TopLvlObjects__c.getOrgDefaults();
 newTop.clm__ConflictManagerAttribute__c = 'false,false,false,false,false,false,false,false,false';
 newTop.clm__GroupFields__c = 'null,null,null,null,null,null,null';
 newTop.clm__MenuSettings__c = 'Home,Chatter,Account,Contact,CTCPG__Activity__c,Calendar,NearbyAccounts,Routes,Applications,Dashboards,Settings';
-newTop.clm__TopLvlObjects__c = 'Account,Contact,Event,CTCPG__Activity__c,CTCPG__ActivityData__c,CTCPG__CalendarSettings__c,Matrix__c,MatrixLineItem__c,CTCPG__Product__c';
+newTop.clm__TopLvlObjects__c = 'Account,Contact,CTCPG__Activity__c,CTCPG__ActivityData__c,CTCPG__CalendarSettings__c,CTCPG__MarketingCycle__c,CTCPG__MarketingDetailTracking__c,CTCPG__Product__c,CTCPG__TargetFrequency__c,Event,Matrix__c,MatrixLineItem__c,Opportunity,Order,Case';
 newTop.clm__OnlineAttribute__c = 'false,false,false,false,false,false,false,,false,false,false';
 newTop.clm__SortOrder__c = 'null,ASC,,,,,,,,,null';
 upsert newTop;
