@@ -11,30 +11,6 @@
             <layoutItems>
                 <emptySpace>true</emptySpace>
             </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>CountActivityData__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>CountActivityDataFacing__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>DNFormula__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>TotalShelfLength__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>PDLFormula__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>TotalShelfSpace__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
@@ -150,47 +126,6 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>System Information</label>
-        <layoutColumns>
-            <layoutItems>
-                <emptySpace>true</emptySpace>
-            </layoutItems>
-        </layoutColumns>
-        <style>OneColumn</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>false</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>System Information</label>
-        <layoutColumns>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>OwnerId</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Name</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>CreatedById</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>LastModifiedById</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>CTCPG__IsDone__c</field>
-            </layoutItems>
-        </layoutColumns>
-        <style>OneColumn</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
         <label>Targeting</label>
         <layoutColumns>
             <layoutItems>
@@ -220,22 +155,17 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Applications</label>
+        <label>CHARTS</label>
         <layoutColumns>
             <layoutItems>
-                <emptySpace>true</emptySpace>
-            </layoutItems>
-        </layoutColumns>
-        <style>OneColumn</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>APPS</label>
-        <layoutColumns>
-            <layoutItems>
-                <emptySpace>true</emptySpace>
+                <reportChartComponent>
+                    <cacheData>true</cacheData>
+                    <hideOnError>false</hideOnError>
+                    <includeContext>false</includeContext>
+                    <reportName>Planned_vs_Actual_Calls</reportName>
+                    <showTitle>false</showTitle>
+                    <size>SMALL</size>
+                </reportChartComponent>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
@@ -256,7 +186,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h1H00000axh07</masterLabel>
+        <masterLabel>00h1i000000yYYb</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

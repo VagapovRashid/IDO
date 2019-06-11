@@ -19,9 +19,11 @@
   </types>
   <types>
     <name>Layout</name>
+    <members>Account-Mobile Account Layout</members>
     <members>CTCPG__Activity__c-Audit Activity Layout</members>
     <members>CTCPG__Activity__c-Mobile Activity Layout</members>
     <members>CTCPG__Activity__c-Mobile Demo Audit Layout</members>
+    <members>Contact-Mobile Contact Layout</members>
     <members>MatrixLineItem__c-Matrix Line Item Layout</members>
     <members>MatrixLineItem__c-Mobile Matrix Line Item Layout</members>
     <members>Matrix__c-Matrix Layout</members>
@@ -128,8 +130,10 @@
   </types>
   <types>
     <name>RecordType</name>
+    <members>Account.Mobile_Account</members>
     <members>CTCPG__Activity__c.DemoAudit</members>
     <members>CTCPG__Activity__c.Mobile_DemoAudit</members>
+	<members>CTCPG__Activity__c.Mobile_Visit</members>
     <members>MatrixLineItem__c.Matrix_Line_Item</members>
     <members>MatrixLineItem__c.Mobile_Matrix_Line_Item</members>
     <members>Matrix__c.Matrix</members>
@@ -155,6 +159,7 @@
 	<members>CTReports</members>
 	<members>CTReports/ActivitiyByStatus</members>
 	<members>CTReports/Activity_by_Type</members>
+    <members>CTReports/Planned_vs_Actual_Calls</members>
 	<name>Report</name>
   </types>
   <version>44.0</version>

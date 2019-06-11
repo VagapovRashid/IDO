@@ -348,4 +348,10 @@ TotalShelfSpace__c/ ShelfSpace__c)</formula>
         <compactLayoutAssignment>Mobile_activity</compactLayoutAssignment>
         <label>Mobile Audit</label>
     </recordTypes>
+	<recordTypes>
+        <fullName>Mobile_Visit</fullName>
+        <active>false</active>
+        <compactLayoutAssignment>Mobile_activity</compactLayoutAssignment>
+        <label>Mobile Visit</label>
+    </recordTypes>
 </CustomObject>
