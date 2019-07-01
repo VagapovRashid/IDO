@@ -130,7 +130,6 @@
   </types>
   <types>
     <name>RecordType</name>
-    <members>Account.Mobile_Account</members>
     <members>CTCPG__Activity__c.DemoAudit</members>
     <members>CTCPG__Activity__c.Mobile_DemoAudit</members>
 	<members>CTCPG__Activity__c.Mobile_Visit</members>
