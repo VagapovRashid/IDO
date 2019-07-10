@@ -10,7 +10,6 @@
             "clm__IsAvailableForRD__c": true,
             "clm__DeviceOrientation__c": "Horizontal",
             "clm__IsFeedbackCommentsEnabled__c": true,
-            "FirstSlideID__c": "a0e0J00000lLhagQAC",
             "clm__ForcedLoadDate__c": "2019-06-16",
             "clm__ScreenshotID__c": "a0e0J00000lLhagQAC",
             "clm__SlideEffect__c": "None",
