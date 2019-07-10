@@ -38,5 +38,29 @@
         "files": [
             "CTCPG__MarketingDetailTracking__cs.json"
         ]
+    },
+    {
+        "sobject": "clm__Application__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "clm__Application__c.json"
+        ]
+    },
+    {
+        "sobject": "clm__Slide__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "clm__Slide__c.json"
+        ]
+    },
+    {
+        "sobject": "clm__Template__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "clm__Template__c.json"
+        ]
     }
 ]

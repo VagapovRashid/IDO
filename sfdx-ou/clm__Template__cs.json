@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "clm__Template__c",
+                "referenceId": "clm__Template__cRef1"
+            },
+            "Name": "Temp: default",
+            "clm__IsActive__c": true,
+            "clm__MaxComponents__c": 1,
+            "clm__ApplicationId__c": "@clm__Application__cRef1"
+        }
+    ]
+}
