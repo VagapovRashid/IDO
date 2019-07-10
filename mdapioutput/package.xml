@@ -161,5 +161,9 @@
     <members>CTReports/Planned_vs_Actual_Calls</members>
 	<name>Report</name>
   </types>
+  <types>
+        <members>GitContent</members>
+        <name>RemoteSiteSetting</name>
+    </types>
   <version>44.0</version>
 </Package>
