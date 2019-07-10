@@ -10,7 +10,7 @@
             "clm__Branch__c": "0",
             "clm__ContainsKeyMessage__c": false,
             "clm__IsFixed__c": false,
-            "clm__Code__c": "<!DOCTYPEhtml><html><head><metacharset='utf-8'><metaname='viewport'content='width=device-width,initial-scale=1.0,maximum-scale=1.0'><metaname='apple-mobile-web-app-status-bar-style'content='black-translucent'><metaname='format-detection'content='telephone=no'><metaname='apple-mobile-web-app-capable'content='yes'><title>AlpineBrands</title><scripttype='text/javascript'src='../JSLibrary/js/app.js'></script>",
+            "clm__Code__c": "<!DOCTYPEhtml><html><head><metacharset='utf-8'><metaname='viewport'content='width=device-width,initial-scale=1.0,maximum-scale=1.0'><metaname='apple-mobile-web-app-status-bar-style'content='black-translucent'><metaname='format-detection'content='telephone=no'><metaname='apple-mobile-web-app-capable'content='yes'><title>AlpineBrands</title><scripttype='text/javascript'src='../JSLibrary/js/app.js'></script><linkhref='css/style_general.css'rel='stylesheet'><linkhref='css/style_home.css'rel='stylesheet'><linkhref='css/animate/animate.css'rel='stylesheet'><scriptsrc='js/libs/getElementsByClassName-1.0.1.js'></script><scriptsrc='js/libs/jquery/jquery-3.1.1.min.js'></script><scriptsrc='js/libs/jquery/jquery.fittext.js'></script><scriptsrc='js/libs/jquery/jquery.lettering.js'>",
             "clm__Order__c": 1,
             "clm__IsRequired__c": false,
             "clm__IsShareAllowed__c": true,
