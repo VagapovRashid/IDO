@@ -48,19 +48,19 @@
         ]
     },
     {
-        "sobject": "clm__Slide__c",
-        "saveRefs": true,
-        "resolveRefs": true,
-        "files": [
-            "clm__Slide__c.json"
-        ]
-    },
-    {
         "sobject": "clm__Template__c",
         "saveRefs": true,
         "resolveRefs": true,
         "files": [
             "clm__Template__c.json"
+        ]
+    },
+    {
+        "sobject": "clm__Slide__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "clm__Slide__c.json"
         ]
     }
 ]
