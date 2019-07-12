@@ -1,44 +1,5 @@
 [
-    {
-        "sobject": "CTCPG__Product__c",
-        "saveRefs": true,
-        "resolveRefs": false,
-        "files": [
-            "CTCPG__Product__c.json"
-        ]
-    },
-	{
-        "sobject": "Matrix__c",
-        "saveRefs": true,
-        "resolveRefs": false,
-        "files": [
-            "Matrix__c.json"
-        ]
-    },
-    {
-        "sobject": "MatrixLineItem__c",
-        "saveRefs": false,
-        "resolveRefs": true,
-        "files": [
-            "MatrixLineItem__c.json"
-        ]
-    },
-    {
-        "sobject": "CTCPG__MarketingCycle__c",
-        "saveRefs": true,
-        "resolveRefs": true,
-        "files": [
-            "CTCPG__MarketingCycle__cs.json"
-        ]
-    },
-    {
-        "sobject": "CTCPG__MarketingDetailTracking__c",
-        "saveRefs": true,
-        "resolveRefs": true,
-        "files": [
-            "CTCPG__MarketingDetailTracking__cs.json"
-        ]
-    },
+    
     {
         "sobject": "clm__Application__c",
         "saveRefs": true,
