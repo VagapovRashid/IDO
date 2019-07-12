@@ -17,6 +17,78 @@
             "clm__SlideAnimation__c": "None",
 			"clm__ApplicationId__c": "@clm__Application__cRef1",
 			"clm__TemplateId__c": "@clm__Template__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Slide__c",
+                "referenceId": "clm__Slide__cRef2"
+            },
+            "Name": "catalog",
+            "clm__IsActive__c": true,
+            "clm__Branch__c": "0",
+            "clm__ContainsKeyMessage__c": false,
+            "clm__IsFixed__c": false,
+            "clm__Code__c": "",
+            "clm__Order__c": 2,
+            "clm__IsRequired__c": false,
+            "clm__IsShareAllowed__c": true,
+            "clm__SlideAnimation__c": "None",
+			"clm__ApplicationId__c": "@clm__Application__cRef1",
+			"clm__TemplateId__c": "@clm__Template__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Slide__c",
+                "referenceId": "clm__Slide__cRef3"
+            },
+            "Name": "cart",
+            "clm__IsActive__c": true,
+            "clm__Branch__c": "0",
+            "clm__ContainsKeyMessage__c": false,
+            "clm__IsFixed__c": false,
+            "clm__Code__c": "",
+            "clm__Order__c": 3,
+            "clm__IsRequired__c": false,
+            "clm__IsShareAllowed__c": true,
+            "clm__SlideAnimation__c": "None",
+			"clm__ApplicationId__c": "@clm__Application__cRef1",
+			"clm__TemplateId__c": "@clm__Template__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Slide__c",
+                "referenceId": "clm__Slide__cRef4"
+            },
+            "Name": "item",
+            "clm__IsActive__c": true,
+            "clm__Branch__c": "1",
+            "clm__ContainsKeyMessage__c": false,
+            "clm__IsFixed__c": true,
+            "clm__Code__c": "",
+            "clm__Order__c": 11,
+            "clm__IsRequired__c": false,
+            "clm__IsShareAllowed__c": true,
+            "clm__SlideAnimation__c": "None",
+			"clm__ApplicationId__c": "@clm__Application__cRef1",
+			"clm__TemplateId__c": "@clm__Template__cRef1"
+        },
+        {
+            "attributes": {
+                "type": "clm__Slide__c",
+                "referenceId": "clm__Slide__cRef5"
+            },
+            "Name": "audit",
+            "clm__IsActive__c": true,
+            "clm__Branch__c": "0",
+            "clm__ContainsKeyMessage__c": false,
+            "clm__IsFixed__c": false,
+            "clm__Code__c": "",
+            "clm__Order__c": 4,
+            "clm__IsRequired__c": false,
+            "clm__IsShareAllowed__c": true,
+            "clm__SlideAnimation__c": "None",
+			"clm__ApplicationId__c": "@clm__Application__cRef1",
+			"clm__TemplateId__c": "@clm__Template__cRef1"
         }
     ]
 }
