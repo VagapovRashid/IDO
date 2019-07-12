@@ -10,7 +10,7 @@
             "clm__Branch__c": "0",
             "clm__ContainsKeyMessage__c": false,
             "clm__IsFixed__c": false,
-            "clm__Code__c": "<!DOCTYPE html><html><head><meta charset='utf-8'>",
+            "clm__Code__c": "<!DOCTYPE html><html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>",
             "clm__Order__c": 1,
             "clm__IsRequired__c": false,
             "clm__IsShareAllowed__c": true,
