@@ -10,7 +10,7 @@
             "clm__Branch__c": "0",
             "clm__ContainsKeyMessage__c": false,
             "clm__IsFixed__c": false,
-            "clm__Code__c": "",
+            "clm__Code__c": "<!DOCTYPE html>",
             "clm__Order__c": 1,
             "clm__IsRequired__c": false,
             "clm__IsShareAllowed__c": true,
