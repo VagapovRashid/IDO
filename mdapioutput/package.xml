@@ -177,6 +177,13 @@
     <members>VisitDialogLayoutSettings__mdt</members>
     <members>VisitDialogSectionSettings__mdt</members>
     <members>VisitDialogTabSettings__mdt</members>
+	<members>PDF_FieldTransformation__mdt</members>
+	<members>ProductDescriptionSetting__mdt</members>
+	<members>PromoCalendarHeader__mdt</members>
+	<members>PromoCalendarSettings__mdt</members>
+	<members>VisitDialog_Layout__mdt</members>
+	<members>VisitDialog_Sections__mdt</members>
+	<members>VisitDialog_Tabs__mdt</members>
   </types>
   <types>
     <name>ListView</name>
