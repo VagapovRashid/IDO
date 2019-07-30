@@ -6,6 +6,29 @@
   </types>
   <types>
     <name>CustomMetadata</name>
+	<members>VisitDialog_Layout.Audit</members>
+	<members>VisitDialog_Layout.Store_Audit</members>
+	<members>VisitDialog_Sections.Account_Section</members>
+	<members>VisitDialog_Sections.Competitor_Produit</members>
+	<members>VisitDialog_Sections.Completed_Actions</members>
+	<members>VisitDialog_Sections.Contacts</members>
+	<members>VisitDialog_Sections.Dashboard</members>
+	<members>VisitDialog_Sections.General_Information</members>
+	<members>VisitDialog_Sections.Next_visit</members>
+	<members>VisitDialog_Sections.Plan_D_Action</members>
+	<members>VisitDialog_Sections.Plan_vs_Fact</members>
+	<members>VisitDialog_Sections.Product_Records</members>
+	<members>VisitDialog_Sections.Promotion</members>
+	<members>VisitDialog_Sections.Sales_Records</members>
+	<members>VisitDialog_Sections.Visit_General_Info</members>
+	<members>VisitDialog_Sections.Visit_Results</members>
+	<members>VisitDialog_Tabs.Account_Tab</members>
+	<members>VisitDialog_Tabs.Competitor_Audit</members>
+	<members>VisitDialog_Tabs.Compte_Rendu</members>
+	<members>VisitDialog_Tabs.Plan_D_Action</members>
+	<members>VisitDialog_Tabs.Product_Audit</members>
+	<members>VisitDialog_Tabs.Sales_Plan</members>
+	<members>VisitDialog_Tabs.Visit_Details</members>
     <members>VisitDialogLayoutSettings.DemoAudit</members>
     <members>VisitDialogLayoutSettings.VisitDialogLayoutSettings</members>
     <members>VisitDialogSectionSettings.AuditDialogSectionSettings</members>
