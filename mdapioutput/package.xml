@@ -6,6 +6,15 @@
   </types>
   <types>
     <name>CustomMetadata</name>
+	<members>PDF_FieldTransformation.Vente_Barcode</members>
+	<members>PDF_FieldTransformation.Vente_Image</members>
+	<members>ProductDescriptionSetting.Audit_PDS</members>
+	<members>PromoCalendarHeader.AFHAccount</members>
+	<members>PromoCalendarHeader.DemoAuditVisit</members>
+	<members>PromoCalendarHeader.Visit</members>
+	<members>PromoCalendarSettings.AFHAccountPromo</members>
+	<members>PromoCalendarSettings.AFHVisitPromo</members>
+	<members>PromoCalendarSettings.DriveVisitPromo</members>
 	<members>VisitDialog_Layout.Audit</members>
 	<members>VisitDialog_Layout.Store_Audit</members>
 	<members>VisitDialog_Sections.Account_Section</members>
